@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\Gal\\Desktop\\Unreal-TomLomman\\fpsGame\\coopgame\\coopgame\\MyFpsGameNew\\MyFpsGameNew\\Source\\coopgame\\coopgame.Build.cs",
+		"C:\\Users\\Gal\\Desktop\\Unreal-TomLomman\\fpsGame\\coopgame\\coopgame\\MyFpsGameNew\\MyFpsGameNew\\Source\\coopgame.Target.cs",
+		"C:\\Users\\Gal\\Desktop\\Unreal-TomLomman\\fpsGame\\coopgame\\coopgame\\MyFpsGameNew\\MyFpsGameNew\\Source\\coopgameEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.4"
+}

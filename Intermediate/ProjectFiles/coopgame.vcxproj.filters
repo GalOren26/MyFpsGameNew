@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\coopgame.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{6A331E44-DC73-4C84-9CF2-8EF3E706AEA3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\coopgame.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\coopgameEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\array.docx" />
+    <None Include="..\..\README.md" />
+    <None Include="..\..\to do in game.docx" />
+    <None Include="..\..\~$array.docx" />
+    <None Include="..\..\מיפוי מבחנים.docx" />
+    <None Include="..\..\סיכומים2.docx" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{F34EC5FC-F487-4C20-B642-0467420F19F3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\coopgame">
+      <UniqueIdentifier>{CFCA4EED-D7F6-4D15-A544-25F4A82E1C7F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\coopgame\coopgame.Build.cs">
+      <Filter>Source\coopgame</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\coopgame\coopgame.cpp">
+      <Filter>Source\coopgame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\coopgame\coopgame.h">
+      <Filter>Source\coopgame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\coopgame\coopgameGameModeBase.cpp">
+      <Filter>Source\coopgame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\coopgame\coopgameGameModeBase.h">
+      <Filter>Source\coopgame</Filter>
+    </ClInclude>
+    <Filter Include="Source\coopgame\Private">
+      <UniqueIdentifier>{B2A93B78-7861-4B5D-90C4-8F582AB367FA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\coopgame\Private\FPSProjectile.cpp">
+      <Filter>Source\coopgame\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\coopgame\Private\MySWeapon.cpp">
+      <Filter>Source\coopgame\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\coopgame\Private\SChar.cpp">
+      <Filter>Source\coopgame\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\coopgame\Private\SCharacter.cpp">
+      <Filter>Source\coopgame\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\coopgame\Private\SWeapon.cpp">
+      <Filter>Source\coopgame\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\coopgame\Private\Components">
+      <UniqueIdentifier>{790E0867-77D2-40EE-A507-25D55673418E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\coopgame\Private\Components\AimComponent.cpp">
+      <Filter>Source\coopgame\Private\Components</Filter>
+    </ClCompile>
+    <Filter Include="Source\coopgame\Public">
+      <UniqueIdentifier>{0FD010C9-32B0-4438-8A24-881702DD207D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\coopgame\Public\FPSProjectile.h">
+      <Filter>Source\coopgame\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\coopgame\Public\MySWeapon.h">
+      <Filter>Source\coopgame\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\coopgame\Public\SChar.h">
+      <Filter>Source\coopgame\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\coopgame\Public\SCharacter.h">
+      <Filter>Source\coopgame\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\coopgame\Public\SWeapon.h">
+      <Filter>Source\coopgame\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\coopgame\Public\Components">
+      <UniqueIdentifier>{70F4C91C-4EC6-4D34-99CE-465D854E310E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\coopgame\Public\Components\AimComponent.h">
+      <Filter>Source\coopgame\Public\Components</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,22 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Gal\Desktop\Unreal-TomLomman\fpsGame\coopgame\coopgame\MyFpsGameNew\MyFpsGameNew).
+  Parsing headers for coopgameEditor
+    Running UnrealHeaderTool "C:\Users\Gal\Desktop\Unreal-TomLomman\fpsGame\coopgame\coopgame\MyFpsGameNew\MyFpsGameNew\coopgame.uproject" "C:\Users\Gal\Desktop\Unreal-TomLomman\fpsGame\coopgame\coopgame\MyFpsGameNew\MyFpsGameNew\Intermediate\Build\Win64\coopgameEditor\DebugGame\coopgameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Gal\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for coopgameEditor in 3.8980421 seconds
+  Building coopgameEditor...
+  Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 11 actions with 16 processes...
+    [1/11] coopgame.init.gen.cpp
+    [2/11] SWeapon.gen.cpp
+    [3/11] AimComponent.cpp
+    [4/11] SChar.gen.cpp
+    [5/11] MySWeapon.gen.cpp
+    [6/11] SChar.cpp
+    [7/11] SWeapon.cpp
+    [8/11] MySWeapon.cpp
+    [9/11] UE4Editor-coopgame-Win64-DebugGame.lib
+       Creating library C:\Users\Gal\Desktop\Unreal-TomLomman\fpsGame\coopgame\coopgame\MyFpsGameNew\MyFpsGameNew\Intermediate\Build\Win64\UE4Editor\DebugGame\coopgame\UE4Editor-coopgame-Win64-DebugGame.lib and object C:\Users\Gal\Desktop\Unreal-TomLomman\fpsGame\coopgame\coopgame\MyFpsGameNew\MyFpsGameNew\Intermediate\Build\Win64\UE4Editor\DebugGame\coopgame\UE4Editor-coopgame-Win64-DebugGame.exp
+    [10/11] UE4Editor-coopgame-Win64-DebugGame.dll
+       Creating library C:\Users\Gal\Desktop\Unreal-TomLomman\fpsGame\coopgame\coopgame\MyFpsGameNew\MyFpsGameNew\Intermediate\Build\Win64\UE4Editor\DebugGame\coopgame\UE4Editor-coopgame-Win64-DebugGame.suppressed.lib and object C:\Users\Gal\Desktop\Unreal-TomLomman\fpsGame\coopgame\coopgame\MyFpsGameNew\MyFpsGameNew\Intermediate\Build\Win64\UE4Editor\DebugGame\coopgame\UE4Editor-coopgame-Win64-DebugGame.suppressed.exp
+    [11/11] coopgameEditor-Win64-DebugGame.target
+  Total time in Parallel executor: 1.40 seconds
+  Total execution time: 5.68 seconds

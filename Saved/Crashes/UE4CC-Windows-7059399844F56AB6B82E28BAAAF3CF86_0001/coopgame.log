@@ -1,0 +1,1855 @@
+﻿Log file open, 02/21/21 23:20:32
+LogInit: Display: Running engine for game: coopgame
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.162976
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +2:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz, GPU: NVIDIA GeForce RTX 2070 SUPER
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.02.21-21.20.33:210][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.02.21-21.20.33:210][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.02.21-21.20.33:210][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/Config/Windows/Engine.ini]
+[2021.02.21-21.20.33:210][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.02.21-21.20.33:210][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/Config/Windows/Engine.ini]
+[2021.02.21-21.20.33:210][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/Config/Windows/Engine.ini]
+[2021.02.21-21.20.33:210][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.02.21-21.20.33:210][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.02.21-21.20.33:211][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.02.21-21.20.33:211][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.02.21-21.20.33:211][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.02.21-21.20.33:211][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.02.21-21.20.33:211][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.02.21-21.20.33:211][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.02.21-21.20.33:211][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.02.21-21.20.33:211][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.02.21-21.20.33:211][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.02.21-21.20.33:211][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.02.21-21.20.33:211][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.02.21-21.20.33:211][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.02.21-21.20.33:211][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/Config/Windows/Engine.ini]
+[2021.02.21-21.20.33:211][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.02.21-21.20.33:211][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.02.21-21.20.33:211][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.02.21-21.20.33:211][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.02.21-21.20.33:211][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.02.21-21.20.33:211][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.02.21-21.20.33:211][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.02.21-21.20.33:211][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.02.21-21.20.33:211][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.02.21-21.20.33:211][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.02.21-21.20.33:211][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.02.21-21.20.33:211][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.02.21-21.20.33:211][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.02.21-21.20.33:211][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/Config/Windows/Engine.ini]
+[2021.02.21-21.20.33:211][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/Config/Windows/Engine.ini]
+[2021.02.21-21.20.33:212][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/Config/Windows/Scalability.ini]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/Config/Windows/Scalability.ini]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/Config/Windows/Scalability.ini]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/Config/Windows/Scalability.ini]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.02.21-21.20.33:212][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/Config/Windows/Scalability.ini]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/Config/Windows/Scalability.ini]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/Config/Windows/Scalability.ini]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/Config/Windows/Scalability.ini]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.02.21-21.20.33:213][  0]LogInit: Selected Device Profile: [Windows]
+[2021.02.21-21.20.33:213][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.02.21-21.20.33:213][  0]LogHAL: Display: Platform has ~ 16 GB [17090310144 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.02.21-21.20.33:213][  0]LogInit: Going up to parent DeviceProfile []
+[2021.02.21-21.20.33:213][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/Config/Windows/Scalability.ini]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/Config/Windows/Scalability.ini]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/Config/Windows/Scalability.ini]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/Config/Windows/Scalability.ini]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.02.21-21.20.33:213][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/Config/Windows/Scalability.ini]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/Config/Windows/Scalability.ini]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/Config/Windows/Scalability.ini]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/Config/Windows/Scalability.ini]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.02.21-21.20.33:214][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/Config/Windows/Engine.ini]
+[2021.02.21-21.20.33:214][  0]LogInit: Computer: DESKTOP-SSSBVNV
+[2021.02.21-21.20.33:214][  0]LogInit: User: Gal
+[2021.02.21-21.20.33:214][  0]LogInit: CPU Page size=4096, Cores=8
+[2021.02.21-21.20.33:214][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.02.21-21.20.33:214][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.02.21-21.20.33:214][  0]LogMemory: Platform Memory Stats for Windows
+[2021.02.21-21.20.33:214][  0]LogMemory: Process Physical Memory: 116.12 MB used, 116.13 MB peak
+[2021.02.21-21.20.33:214][  0]LogMemory: Process Virtual Memory: 106.37 MB used, 106.37 MB peak
+[2021.02.21-21.20.33:214][  0]LogMemory: Physical Memory: 9341.52 MB used,  6957.07 MB free, 16298.59 MB total
+[2021.02.21-21.20.33:214][  0]LogMemory: Virtual Memory: 5193.12 MB used,  134212536.00 MB free, 134217728.00 MB total
+[2021.02.21-21.20.33:217][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.02.21-21.20.33:239][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.02.21-21.20.33:240][  0]LogInit: Using OS detected language (en-US).
+[2021.02.21-21.20.33:240][  0]LogInit: Using OS detected locale (en-US).
+[2021.02.21-21.20.33:250][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.02.21-21.20.33:473][  0]LogInit: Setting process to per monitor DPI aware
+[2021.02.21-21.20.33:495][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.02.21-21.20.33:495][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.02.21-21.20.33:692][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.02.21-21.20.33:692][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.02.21-21.20.33:692][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.02.21-21.20.33:692][  0]LogD3D11RHI: D3D11 adapters:
+[2021.02.21-21.20.33:751][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070 SUPER' (Feature Level 11_0)
+[2021.02.21-21.20.33:751][  0]LogD3D11RHI:       8011/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.02.21-21.20.33:753][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.02.21-21.20.33:753][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.02.21-21.20.33:753][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.02.21-21.20.33:759][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.02.21-21.20.33:759][  0]LogD3D11RHI:     GPU DeviceId: 0x1e84 (for the marketing name, search the web for "GPU Device Id")
+[2021.02.21-21.20.33:759][  0]LogWindows: EnumDisplayDevices:
+[2021.02.21-21.20.33:759][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070 SUPER' (P:1 D:1)
+[2021.02.21-21.20.33:759][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:0)
+[2021.02.21-21.20.33:759][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:0)
+[2021.02.21-21.20.33:760][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:0)
+[2021.02.21-21.20.33:760][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.02.21-21.20.33:760][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070 SUPER
+[2021.02.21-21.20.33:760][  0]LogD3D11RHI:   Driver Version: 446.14 (internal:26.21.14.4614, unified:446.14)
+[2021.02.21-21.20.33:760][  0]LogD3D11RHI:      Driver Date: 5-15-2020
+[2021.02.21-21.20.33:760][  0]LogRHI: Texture pool is 5607 MB (70% of 8011 MB)
+[2021.02.21-21.20.33:799][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.02.21-21.20.33:799][  0]LogD3D11RHI: Async texture creation enabled
+[2021.02.21-21.20.33:799][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.02.21-21.20.33:810][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.02.21-21.20.34:014][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.02.21-21.20.34:030][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.02.21-21.20.34:030][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.02.21-21.20.34:030][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.02.21-21.20.34:030][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.02.21-21.20.34:030][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.02.21-21.20.34:030][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.02.21-21.20.34:030][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.02.21-21.20.34:030][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.02.21-21.20.34:030][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.02.21-21.20.34:030][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.02.21-21.20.34:047][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.02.21-21.20.34:047][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.02.21-21.20.34:061][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.02.21-21.20.34:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.02.21-21.20.34:074][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.02.21-21.20.34:080][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.02.21-21.20.34:087][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.02.21-21.20.34:093][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.02.21-21.20.34:099][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.02.21-21.20.34:122][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.02.21-21.20.34:122][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.02.21-21.20.34:133][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.02.21-21.20.34:133][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.02.21-21.20.34:140][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.02.21-21.20.34:147][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.02.21-21.20.34:153][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.02.21-21.20.34:159][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.02.21-21.20.34:159][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.02.21-21.20.34:164][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.02.21-21.20.34:204][  0]LogShaderCompilers: Guid format shader working directory is -61 characters bigger than the processId version (../../../../../../Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Intermediate/Shaders/WorkingDirectory/22184/).
+[2021.02.21-21.20.34:204][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Gal/AppData/Local/Temp/UnrealShaderWorkingDir/3331C8F840B561C1A7E47B8C92B36000/'.
+[2021.02.21-21.20.34:204][  0]LogXGEController: Cleaning working directory: C:/Users/Gal/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.02.21-21.20.34:204][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.02.21-21.20.34:204][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.02.21-21.20.34:204][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.02.21-21.20.36:096][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.02.21-21.20.36:176][  0]LogDerivedDataCache: Loaded boot cache 0.08s 76MB C:/Users/Gal/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.02.21-21.20.36:176][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Gal/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.02.21-21.20.36:176][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.02.21-21.20.36:176][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.02.21-21.20.36:176][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.02.21-21.20.36:176][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.02.21-21.20.36:183][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.02.21-21.20.36:184][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.02.21-21.20.36:184][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.02.21-21.20.36:185][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Gal/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.02.21-21.20.36:185][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.02.21-21.20.36:185][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.02.21-21.20.36:222][  0]LogSlate: Using FreeType 2.10.0
+[2021.02.21-21.20.36:222][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.02.21-21.20.36:240][  0]LogAssetRegistry: FAssetRegistry took 0.0018 seconds to start up
+[2021.02.21-21.20.36:398][  0]LogInit: Selected Device Profile: [Windows]
+[2021.02.21-21.20.36:479][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.02.21-21.20.36:479][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.02.21-21.20.36:479][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.02.21-21.20.36:479][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.02.21-21.20.36:479][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.02.21-21.20.36:490][  0]LogNetVersion: coopgame 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2766024207)
+[2021.02.21-21.20.36:782][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000019CBBC2C280), frame # 0
+[2021.02.21-21.20.36:782][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019CBBB5DD00), frame # 0
+[2021.02.21-21.20.36:783][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019CBBBA6000), frame # 0
+[2021.02.21-21.20.36:819][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.031306 seconds
+[2021.02.21-21.20.36:822][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.02.21-21.20.36:823][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.02.21-21.20.36:823][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.02.21-21.20.37:070][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.02.21-21.20.37:073][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.02.21-21.20.37:150][  0]SourceControl: Source control is disabled
+[2021.02.21-21.20.37:150][  0]SourceControl: Source control is disabled
+[2021.02.21-21.20.37:152][  0]SourceControl: Source control is disabled
+[2021.02.21-21.20.37:155][  0]SourceControl: Source control is disabled
+[2021.02.21-21.20.37:159][  0]SourceControl: Source control is disabled
+[2021.02.21-21.20.37:330][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.02.21-21.20.37:344][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.02.21-21.20.37:344][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.02.21-21.20.37:380][  0]LogOcInput: OculusInput pre-init called
+[2021.02.21-21.20.37:388][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.02.21-21.20.37:388][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.02.21-21.20.37:433][  0]LogEngine: Initializing Engine...
+[2021.02.21-21.20.37:434][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.02.21-21.20.37:434][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.02.21-21.20.37:435][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.02.21-21.20.37:519][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.02.21-21.20.37:525][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.02.21-21.20.37:525][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019CC1AAC800), frame # 0
+[2021.02.21-21.20.37:525][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019CC1AB5D00), frame # 0
+[2021.02.21-21.20.37:535][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.21-21.20.37:535][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.21-21.20.37:535][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.21-21.20.37:535][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.21-21.20.37:535][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.21-21.20.37:535][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.21-21.20.37:535][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.21-21.20.37:535][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.21-21.20.37:536][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.21-21.20.37:536][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.21-21.20.37:544][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.21-21.20.37:544][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.02.21-21.20.37:565][  0]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2021.02.21-21.20.37:569][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.21-21.20.37:571][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.21-21.20.37:571][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.21-21.20.37:571][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.21-21.20.37:572][  0]LogInit: FAudioDevice initialized.
+[2021.02.21-21.20.37:572][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.02.21-21.20.37:611][  0]LogDerivedDataCache: Saved boot cache 0.04s 76MB C:/Users/Gal/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.02.21-21.20.37:614][  0]LogInit: Texture streaming: Enabled
+[2021.02.21-21.20.37:623][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.02.21-21.20.37:623][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={FEA05474-4A47-BC7B-0FC4-48A9BDCEABB7}
+[2021.02.21-21.20.37:623][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.02.21-21.20.37:624][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.02.21-21.20.37:665][  0]LogInit: Transaction tracking system initialized
+[2021.02.21-21.20.37:684][  0]BlueprintLog: New page: Editor Load
+[2021.02.21-21.20.37:737][  0]LocalizationService: Localization service is disabled
+[2021.02.21-21.20.37:847][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.02.21-21.20.37:847][  0]LogCook: Display: Mobile HDR setting 1
+[2021.02.21-21.20.37:878][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Content/' took 0.00s
+[2021.02.21-21.20.38:081][  0]SourceControl: Source control is disabled
+[2021.02.21-21.20.38:184][  0]LogSlate: Took 0.000105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.02.21-21.20.43:946][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2021.02.21-21.20.43:946][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.02.21-21.20.43:981][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.02.21-21.20.45:652][  0]LogSlate: Window 'Unable to Check Out From Source Control!' being destroyed
+[2021.02.21-21.20.45:652][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.02.21-21.20.45:656][  0]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/BluePrints/BP_TargetDummy
+/Game/BluePrints/PlayerPawn
+/Game/NewLevel
+[2021.02.21-21.20.45:677][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2021.02.21-21.20.45:677][  0]LogUnrealEdMisc: Loading editor; pre map load, took 13.510
+[2021.02.21-21.20.45:677][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Content/NewLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.02.21-21.20.45:678][  0]LightingResults: New page: Lighting Build
+[2021.02.21-21.20.45:678][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.02.21-21.20.45:679][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.21-21.20.45:679][  0]MapCheck: New page: Map Check
+[2021.02.21-21.20.45:679][  0]LightingResults: New page: Lighting Build
+[2021.02.21-21.20.45:693][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019CC1AAC800), frame # 0
+[2021.02.21-21.20.45:693][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019CC1AB5D00), frame # 0
+[2021.02.21-21.20.45:694][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2021.02.21-21.20.45:746][  0]LogBlueprint: Error: [Compiler PlayerPawn] In use pin  My Weapon  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2021.02.21-21.20.46:023][  0]LogAIModule: Creating AISystem for world NewLevel
+[2021.02.21-21.20.46:023][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019CC9052400), frame # 0
+[2021.02.21-21.20.46:023][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019CC9099E40), frame # 0
+[2021.02.21-21.20.46:029][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.02.21-21.20.46:040][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2021.02.21-21.20.46:040][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.02.21-21.20.46:041][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.118ms to complete.
+[2021.02.21-21.20.46:041][  0]LogFileHelpers: Loading map 'NewLevel' took 0.363
+[2021.02.21-21.20.46:042][  0]LogUnrealEdMisc: Total Editor Startup Time, took 13.876
+[2021.02.21-21.20.46:115][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.21-21.20.46:120][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.21-21.20.46:124][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.21-21.20.46:128][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.21-21.20.46:132][  0]LogCollectionManager: Loaded 0 collections in 0.001183 seconds
+[2021.02.21-21.20.46:142][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/Collections/' took 0.00s
+[2021.02.21-21.20.46:142][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Content/Developers/Gal/Collections/' took 0.00s
+[2021.02.21-21.20.46:142][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Content/Collections/' took 0.00s
+[2021.02.21-21.20.46:142][  0]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 3432 classes and 824 folders.
+[2021.02.21-21.20.46:145][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.02.21-21.20.46:236][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.02.21-21.20.46:238][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2021.02.21-21.20.46:331][  0]LogSlate: Took 0.000106 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.02.21-21.20.46:333][  0]LogSlate: Took 0.000458 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.02.21-21.20.46:347][  0]LogRenderer: Reallocating scene render targets to support 1412x536 Format 10 NumSamples 1 (Frame:1).
+[2021.02.21-21.20.46:370][  0]LogSlate: Took 0.000555 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.02.21-21.20.46:394][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.02.21-21.20.46:394][  0]LogLoad: (Engine Initialization) Total time: 14.23 seconds
+[2021.02.21-21.20.46:394][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.02.21-21.20.46:423][  0]LogAssetRegistry: Asset discovery search completed in 10.1826 seconds
+[2021.02.21-21.20.46:425][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2021.02.21-21.20.46:426][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.02.21-21.20.46:445][  1]LogRenderer: Reallocating scene render targets to support 1412x552 Format 10 NumSamples 1 (Frame:3).
+[2021.02.21-21.20.47:415][114]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.02.21-21.20.47:942][130]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.21-21.20.47:949][130]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.21-21.20.47:949][130]BlueprintLog: Warning: Blueprint failed to compile:  PlayerPawn
+[2021.02.21-21.20.47:950][130]LogCustomDialog: Dialog displayed:
+[2021.02.21-21.20.50:070][130]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2021.02.21-21.20.50:075][130]PIE: New page: PIE session: NewLevel (Feb 22, 2021, 1:20:50 AM)
+[2021.02.21-21.20.50:076][130]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.02.21-21.20.50:076][130]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.02.21-21.20.50:077][130]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewLevel
+[2021.02.21-21.20.50:078][130]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001799s)
+[2021.02.21-21.20.50:079][130]LogAIModule: Creating AISystem for world NewLevel
+[2021.02.21-21.20.50:079][130]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019CE5989600), frame # 130
+[2021.02.21-21.20.50:079][130]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019CC207B4C0), frame # 130
+[2021.02.21-21.20.50:079][130]LogPlayLevel: PIE: World Init took: (0.000852s)
+[2021.02.21-21.20.50:079][130]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewLevel.NewLevel to /Game/UEDPIE_0_NewLevel.NewLevel (0.002736s)
+[2021.02.21-21.20.50:089][130]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2021.02.21-21.20.50:090][130]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.21-21.20.50:090][130]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.21-21.20.50:090][130]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.21-21.20.50:090][130]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.21-21.20.50:090][130]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.21-21.20.50:090][130]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.21-21.20.50:090][130]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.21-21.20.50:090][130]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.21-21.20.50:091][130]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.21-21.20.50:091][130]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.21-21.20.50:093][130]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.21-21.20.50:093][130]LogAudioMixer: Display: 1: FrontRight
+[2021.02.21-21.20.50:102][130]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2021.02.21-21.20.50:102][130]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.21-21.20.50:102][130]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.21-21.20.50:102][130]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.21-21.20.50:103][130]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.21-21.20.50:112][130]LogInit: FAudioDevice initialized.
+[2021.02.21-21.20.50:117][130]LogLoad: Game class is 'GameModeBase'
+[2021.02.21-21.20.50:118][130]LogWorld: Bringing World /Game/UEDPIE_0_NewLevel.NewLevel up for play (max tick rate 0) at 2021.02.21-23.20.50
+[2021.02.21-21.20.50:119][130]LogWorld: Bringing up level for play took: 0.001134
+[2021.02.21-21.20.50:119][130]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2021.02.21-21.20.50:121][130]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.02.21-21.20.50:121][130]PIE: Server logged in
+[2021.02.21-21.20.50:122][130]PIE: Play in editor total start time 2.173 seconds.
+[2021.02.21-21.20.52:284][384]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.21-21.20.52:284][384]LogWorld: BeginTearingDown for /Game/UEDPIE_0_NewLevel
+[2021.02.21-21.20.52:284][384]LogWorld: UWorld::CleanupWorld for NewLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.21-21.20.52:284][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.21-21.20.52:294][384]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.21-21.20.52:295][384]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.21-21.20.52:317][384]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.21-21.20.52:317][384]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019CC207B4C0), frame # 384
+[2021.02.21-21.20.52:317][384]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019CE5989600), frame # 384
+[2021.02.21-21.20.52:318][384]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2021.02.21-21.20.52:356][386]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2021.02.21-21.20.53:519][525]LogEditorViewport: Clicking on Actor (LMB): PlayerPawn_C (PlayerPawn)
+[2021.02.21-21.21.07:152][135]LogSlate: Took 0.000113 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.02.21-21.21.11:404][613]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2021.02.21-21.21.38:767][487]LogRenderer: Reallocating scene render targets to support 1416x552 Format 10 NumSamples 1 (Frame:8137).
+[2021.02.21-21.21.38:788][487]LogRenderer: Reallocating scene render targets to support 1420x552 Format 10 NumSamples 1 (Frame:8140).
+[2021.02.21-21.21.38:817][488]LogRenderer: Reallocating scene render targets to support 1448x552 Format 10 NumSamples 1 (Frame:8144).
+[2021.02.21-21.21.38:849][489]LogRenderer: Reallocating scene render targets to support 1484x552 Format 10 NumSamples 1 (Frame:8148).
+[2021.02.21-21.21.38:878][490]LogRenderer: Reallocating scene render targets to support 1512x552 Format 10 NumSamples 1 (Frame:8152).
+[2021.02.21-21.21.38:930][492]LogRenderer: Reallocating scene render targets to support 1520x552 Format 10 NumSamples 1 (Frame:8160).
+[2021.02.21-21.23.19:593][396]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.21-21.23.19:602][396]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.21-21.23.19:602][396]PIE: New page: PIE session: NewLevel (Feb 22, 2021, 1:23:19 AM)
+[2021.02.21-21.23.19:634][396]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewLevel
+[2021.02.21-21.23.19:636][396]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002149s)
+[2021.02.21-21.23.19:637][396]LogAIModule: Creating AISystem for world NewLevel
+[2021.02.21-21.23.19:637][396]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019CDDD2B200), frame # 8396
+[2021.02.21-21.23.19:637][396]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019CC2501BC0), frame # 8396
+[2021.02.21-21.23.19:637][396]LogPlayLevel: PIE: World Init took: (0.000960s)
+[2021.02.21-21.23.19:637][396]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewLevel.NewLevel to /Game/UEDPIE_0_NewLevel.NewLevel (0.003233s)
+[2021.02.21-21.23.19:645][396]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2021.02.21-21.23.19:647][396]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.21-21.23.19:647][396]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.21-21.23.19:647][396]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.21-21.23.19:647][396]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.21-21.23.19:647][396]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.21-21.23.19:647][396]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.21-21.23.19:647][396]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.21-21.23.19:647][396]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.21-21.23.19:648][396]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.21-21.23.19:648][396]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.21-21.23.19:650][396]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.21-21.23.19:650][396]LogAudioMixer: Display: 1: FrontRight
+[2021.02.21-21.23.19:660][396]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2021.02.21-21.23.19:660][396]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.21-21.23.19:660][396]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.21-21.23.19:660][396]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.21-21.23.19:660][396]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.21-21.23.19:670][396]LogInit: FAudioDevice initialized.
+[2021.02.21-21.23.19:676][396]LogLoad: Game class is 'GameModeBase'
+[2021.02.21-21.23.19:677][396]LogWorld: Bringing World /Game/UEDPIE_0_NewLevel.NewLevel up for play (max tick rate 0) at 2021.02.21-23.23.19
+[2021.02.21-21.23.19:678][396]LogWorld: Bringing up level for play took: 0.001088
+[2021.02.21-21.23.19:678][396]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2021.02.21-21.23.19:679][396]PIE: Server logged in
+[2021.02.21-21.23.19:679][396]PIE: Play in editor total start time 0.079 seconds.
+[2021.02.21-21.23.24:935][ 23]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.21-21.23.24:935][ 23]LogWorld: BeginTearingDown for /Game/UEDPIE_0_NewLevel
+[2021.02.21-21.23.24:935][ 23]LogWorld: UWorld::CleanupWorld for NewLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.21-21.23.24:935][ 23]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.21-21.23.24:940][ 23]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.21-21.23.24:941][ 23]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.21-21.23.24:963][ 23]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.21-21.23.24:963][ 23]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019CC2501BC0), frame # 9023
+[2021.02.21-21.23.24:963][ 23]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019CDDD2B200), frame # 9023
+[2021.02.21-21.23.24:964][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2021.02.21-21.23.25:015][ 26]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2021.02.21-21.23.26:548][210]LogEditorViewport: Clicking on Actor (LMB): PlayerPawn_C (PlayerPawn)
+[2021.02.21-21.23.32:543][598]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.21-21.23.32:551][598]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.21-21.23.32:551][598]PIE: New page: PIE session: NewLevel (Feb 22, 2021, 1:23:32 AM)
+[2021.02.21-21.23.32:584][598]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewLevel
+[2021.02.21-21.23.32:586][598]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001888s)
+[2021.02.21-21.23.32:586][598]LogAIModule: Creating AISystem for world NewLevel
+[2021.02.21-21.23.32:586][598]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019CF8B01000), frame # 9598
+[2021.02.21-21.23.32:586][598]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019CF8F0A840), frame # 9598
+[2021.02.21-21.23.32:587][598]LogPlayLevel: PIE: World Init took: (0.000917s)
+[2021.02.21-21.23.32:587][598]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewLevel.NewLevel to /Game/UEDPIE_0_NewLevel.NewLevel (0.002926s)
+[2021.02.21-21.23.32:596][598]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.02.21-21.23.32:597][598]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.21-21.23.32:597][598]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.21-21.23.32:597][598]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.21-21.23.32:597][598]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.21-21.23.32:597][598]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.21-21.23.32:597][598]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.21-21.23.32:597][598]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.21-21.23.32:597][598]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.21-21.23.32:597][598]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.21-21.23.32:597][598]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.21-21.23.32:600][598]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.21-21.23.32:600][598]LogAudioMixer: Display: 1: FrontRight
+[2021.02.21-21.23.32:609][598]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2021.02.21-21.23.32:609][598]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.21-21.23.32:609][598]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.21-21.23.32:609][598]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.21-21.23.32:609][598]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.21-21.23.32:610][598]LogInit: FAudioDevice initialized.
+[2021.02.21-21.23.32:621][598]LogLoad: Game class is 'GameModeBase'
+[2021.02.21-21.23.32:623][598]LogWorld: Bringing World /Game/UEDPIE_0_NewLevel.NewLevel up for play (max tick rate 0) at 2021.02.21-23.23.32
+[2021.02.21-21.23.32:623][598]LogWorld: Bringing up level for play took: 0.001018
+[2021.02.21-21.23.32:623][598]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2021.02.21-21.23.32:624][598]PIE: Server logged in
+[2021.02.21-21.23.32:625][598]PIE: Play in editor total start time 0.074 seconds.
+[2021.02.21-21.23.34:424][808]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.21-21.23.34:425][808]LogWorld: BeginTearingDown for /Game/UEDPIE_0_NewLevel
+[2021.02.21-21.23.34:425][808]LogWorld: UWorld::CleanupWorld for NewLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.21-21.23.34:425][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.21-21.23.34:434][808]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.21-21.23.34:436][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.21-21.23.34:457][808]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.21-21.23.34:457][808]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019CF8F0A840), frame # 9808
+[2021.02.21-21.23.34:457][808]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019CF8B01000), frame # 9808
+[2021.02.21-21.23.34:458][808]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.02.21-21.23.34:496][810]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2021.02.21-21.23.35:900][978]LogEditorViewport: Clicking on Actor (LMB): PlayerPawn_C (PlayerPawn)
+[2021.02.21-21.23.35:997][980]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (CharacterMesh0)
+[2021.02.21-21.23.42:885][785]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/PlayerPawn.PlayerPawn
+[2021.02.21-21.23.43:058][785]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2021.02.21-21.23.43:677][785]LogSlate: Took 0.000586 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.02.21-21.23.43:694][785]LogSlate: Took 0.000472 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.02.21-21.23.52:000][721]BlueprintLog: New page: Compile PlayerPawn
+[2021.02.21-21.23.52:002][721]LogBlueprint: Error: [Compiler PlayerPawn] In use pin  My Weapon  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2021.02.21-21.23.52:064][721]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2021.02.21-21.24.13:846][235]LogSlate: Window 'PlayerPawn' being destroyed
+[2021.02.21-21.24.13:850][235]LogSlate: Window 'PlayerPawn' being destroyed
+[2021.02.21-21.24.13:884][235]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.02.21-21.24.13:884][235]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.21-21.24.38:087][124]LogEditorViewport: Clicking on Actor (LMB): BP_TargetDummy_C (BP_TargetDummy)
+[2021.02.21-21.24.38:879][217]LogEditorViewport: Clicking on Actor (LMB): PlayerPawn_C (PlayerPawn)
+[2021.02.21-21.24.49:456][313]LogEditorViewport: Clicking on Actor (LMB): PlayerPawn_C (PlayerPawn)
+[2021.02.21-21.24.50:501][407]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/PlayerPawn.PlayerPawn
+[2021.02.21-21.25.38:282][869]BlueprintLog: New page: Compile PlayerPawn
+[2021.02.21-21.25.38:436][869]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2021.02.21-21.31.12:828][553]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2021.02.21-21.31.12:848][553]LogSavePackage: Moving '../../../../../../Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/NewLevel_Auto1AA58718B415C96F00E0166AB9B2D4E58.tmp' to '../../../../../../Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/Autosaves/Game/NewLevel_Auto1.umap'
+[2021.02.21-21.31.12:850][553]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewLevel' took 0.040
+[2021.02.21-21.31.12:850][553]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.040
+[2021.02.21-21.31.12:850][553]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/PlayerPawn] ([1] browsable assets)...
+[2021.02.21-21.31.12:866][553]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/PlayerPawn.PlayerPawn]
+[2021.02.21-21.31.12:866][553]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/PlayerPawn]
+[2021.02.21-21.31.12:889][553]LogSavePackage: Moving '../../../../../../Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/PlayerPawn_Auto1E1960B0741944E881B6C8CA1432E7322.tmp' to '../../../../../../Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/Autosaves/Game/BluePrints/PlayerPawn_Auto1.uasset'
+[2021.02.21-21.31.12:889][553]LogFileHelpers: Auto-saving content packages took 0.039
+[2021.02.21-21.35.41:741][272]BlueprintLog: New page: Compile PlayerPawn
+[2021.02.21-21.35.41:885][272]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2021.02.21-21.35.42:665][317]LogSlate: Window 'PlayerPawn' being destroyed
+[2021.02.21-21.35.42:669][317]LogSlate: Window 'PlayerPawn' being destroyed
+[2021.02.21-21.35.42:676][317]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.02.21-21.35.42:676][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.21-21.35.43:705][409]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.21-21.35.43:713][409]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.21-21.35.43:713][409]PIE: New page: PIE session: NewLevel (Feb 22, 2021, 1:35:43 AM)
+[2021.02.21-21.35.43:743][409]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewLevel
+[2021.02.21-21.35.43:749][409]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005859s)
+[2021.02.21-21.35.43:750][409]LogAIModule: Creating AISystem for world NewLevel
+[2021.02.21-21.35.43:750][409]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019D376C1C00), frame # 43409
+[2021.02.21-21.35.43:750][409]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019D390A65C0), frame # 43409
+[2021.02.21-21.35.43:750][409]LogPlayLevel: PIE: World Init took: (0.000869s)
+[2021.02.21-21.35.43:750][409]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewLevel.NewLevel to /Game/UEDPIE_0_NewLevel.NewLevel (0.007021s)
+[2021.02.21-21.35.43:767][409]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2021.02.21-21.35.43:768][409]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.21-21.35.43:769][409]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.21-21.35.43:769][409]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.21-21.35.43:769][409]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.21-21.35.43:769][409]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.21-21.35.43:769][409]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.21-21.35.43:769][409]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.21-21.35.43:769][409]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.21-21.35.43:769][409]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.21-21.35.43:769][409]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.21-21.35.43:772][409]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.21-21.35.43:772][409]LogAudioMixer: Display: 1: FrontRight
+[2021.02.21-21.35.43:782][409]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2021.02.21-21.35.43:782][409]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.21-21.35.43:782][409]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.21-21.35.43:782][409]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.21-21.35.43:782][409]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.21-21.35.43:791][409]LogInit: FAudioDevice initialized.
+[2021.02.21-21.35.43:799][409]LogLoad: Game class is 'GameModeBase'
+[2021.02.21-21.35.43:800][409]LogWorld: Bringing World /Game/UEDPIE_0_NewLevel.NewLevel up for play (max tick rate 0) at 2021.02.21-23.35.43
+[2021.02.21-21.35.43:800][409]LogWorld: Bringing up level for play took: 0.001055
+[2021.02.21-21.35.43:801][409]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.02.21-21.35.43:803][409]PIE: Server logged in
+[2021.02.21-21.35.43:803][409]PIE: Play in editor total start time 0.091 seconds.
+[2021.02.21-21.35.44:179][444]LogTemp: Warning: Im Here1 
+[2021.02.21-21.35.44:179][444]LogTemp: Warning: Im Here2 
+[2021.02.21-21.35.44:779][506]LogTemp: Warning: Im Here1 
+[2021.02.21-21.35.44:779][506]LogTemp: Warning: Im Here2 
+[2021.02.21-21.35.45:997][630]LogTemp: Warning: Im Here1 
+[2021.02.21-21.35.45:997][630]LogTemp: Warning: Im Here2 
+[2021.02.21-21.35.46:297][661]LogTemp: Warning: Im Here1 
+[2021.02.21-21.35.46:297][661]LogTemp: Warning: Im Here2 
+[2021.02.21-21.35.46:558][688]LogTemp: Warning: Im Here1 
+[2021.02.21-21.35.46:558][688]LogTemp: Warning: Im Here2 
+[2021.02.21-21.35.46:791][712]LogTemp: Warning: Im Here1 
+[2021.02.21-21.35.46:792][712]LogTemp: Warning: Im Here2 
+[2021.02.21-21.35.47:067][740]LogTemp: Warning: Im Here1 
+[2021.02.21-21.35.47:067][740]LogTemp: Warning: Im Here2 
+[2021.02.21-21.35.47:259][759]LogTemp: Warning: Im Here1 
+[2021.02.21-21.35.47:259][759]LogTemp: Warning: Im Here2 
+[2021.02.21-21.35.47:461][779]LogTemp: Warning: Im Here1 
+[2021.02.21-21.35.47:461][779]LogTemp: Warning: Im Here2 
+[2021.02.21-21.35.47:653][798]LogTemp: Warning: Im Here1 
+[2021.02.21-21.35.47:653][798]LogTemp: Warning: Im Here2 
+[2021.02.21-21.35.47:851][818]LogTemp: Warning: Im Here1 
+[2021.02.21-21.35.47:851][818]LogTemp: Warning: Im Here2 
+[2021.02.21-21.35.48:082][841]LogTemp: Warning: Im Here1 
+[2021.02.21-21.35.48:082][841]LogTemp: Warning: Im Here2 
+[2021.02.21-21.35.48:550][888]LogTemp: Warning: Im Here1 
+[2021.02.21-21.35.48:550][888]LogTemp: Warning: Im Here2 
+[2021.02.21-21.35.48:833][917]LogTemp: Warning: Im Here1 
+[2021.02.21-21.35.48:834][917]LogTemp: Warning: Im Here2 
+[2021.02.21-21.35.49:027][937]LogTemp: Warning: Im Here1 
+[2021.02.21-21.35.49:027][937]LogTemp: Warning: Im Here2 
+[2021.02.21-21.35.49:258][960]LogTemp: Warning: Im Here1 
+[2021.02.21-21.35.49:258][960]LogTemp: Warning: Im Here2 
+[2021.02.21-21.35.49:469][981]LogTemp: Warning: Im Here1 
+[2021.02.21-21.35.49:469][981]LogTemp: Warning: Im Here2 
+[2021.02.21-21.35.49:690][  2]LogTemp: Warning: Im Here1 
+[2021.02.21-21.35.49:690][  2]LogTemp: Warning: Im Here2 
+[2021.02.21-21.35.50:298][ 65]LogTemp: Warning: Im Here1 
+[2021.02.21-21.35.50:298][ 65]LogTemp: Warning: Im Here2 
+[2021.02.21-21.35.50:795][116]LogTemp: Warning: Im Here1 
+[2021.02.21-21.35.50:795][116]LogTemp: Warning: Im Here2 
+[2021.02.21-21.35.51:696][209]LogTemp: Warning: Im Here1 
+[2021.02.21-21.35.51:696][209]LogTemp: Warning: Im Here2 
+[2021.02.21-21.35.52:142][256]LogTemp: Warning: Im Here1 
+[2021.02.21-21.35.52:142][256]LogTemp: Warning: Im Here2 
+[2021.02.21-21.35.52:734][318]LogTemp: Warning: Im Here1 
+[2021.02.21-21.35.52:734][318]LogTemp: Warning: Im Here2 
+[2021.02.21-21.35.55:047][561]LogTemp: Warning: Im Here1 
+[2021.02.21-21.35.55:047][561]LogTemp: Warning: Im Here2 
+[2021.02.21-21.35.58:146][885]LogTemp: Warning: Im Here1 
+[2021.02.21-21.35.58:146][885]LogTemp: Warning: Im Here2 
+[2021.02.21-21.35.58:814][955]LogTemp: Warning: Im Here1 
+[2021.02.21-21.35.58:814][955]LogTemp: Warning: Im Here2 
+[2021.02.21-21.35.59:432][ 19]LogTemp: Warning: Im Here1 
+[2021.02.21-21.35.59:432][ 19]LogTemp: Warning: Im Here2 
+[2021.02.21-21.35.59:905][ 68]LogTemp: Warning: Im Here1 
+[2021.02.21-21.35.59:906][ 68]LogTemp: Warning: Im Here2 
+[2021.02.21-21.36.00:352][113]LogTemp: Warning: Im Here1 
+[2021.02.21-21.36.00:352][113]LogTemp: Warning: Im Here2 
+[2021.02.21-21.36.00:691][148]LogTemp: Warning: Im Here1 
+[2021.02.21-21.36.00:691][148]LogTemp: Warning: Im Here2 
+[2021.02.21-21.36.00:981][178]LogTemp: Warning: Im Here1 
+[2021.02.21-21.36.00:981][178]LogTemp: Warning: Im Here2 
+[2021.02.21-21.36.01:250][206]LogTemp: Warning: Im Here1 
+[2021.02.21-21.36.01:250][206]LogTemp: Warning: Im Here2 
+[2021.02.21-21.36.01:490][231]LogTemp: Warning: Im Here1 
+[2021.02.21-21.36.01:490][231]LogTemp: Warning: Im Here2 
+[2021.02.21-21.36.01:708][254]LogTemp: Warning: Im Here1 
+[2021.02.21-21.36.01:709][254]LogTemp: Warning: Im Here2 
+[2021.02.21-21.36.01:917][276]LogTemp: Warning: Im Here1 
+[2021.02.21-21.36.01:917][276]LogTemp: Warning: Im Here2 
+[2021.02.21-21.36.02:149][300]LogTemp: Warning: Im Here1 
+[2021.02.21-21.36.02:149][300]LogTemp: Warning: Im Here2 
+[2021.02.21-21.36.02:381][324]LogTemp: Warning: Im Here1 
+[2021.02.21-21.36.02:381][324]LogTemp: Warning: Im Here2 
+[2021.02.21-21.36.02:645][351]LogTemp: Warning: Im Here1 
+[2021.02.21-21.36.02:645][351]LogTemp: Warning: Im Here2 
+[2021.02.21-21.36.02:890][376]LogTemp: Warning: Im Here1 
+[2021.02.21-21.36.02:890][376]LogTemp: Warning: Im Here2 
+[2021.02.21-21.36.03:117][399]LogTemp: Warning: Im Here1 
+[2021.02.21-21.36.03:117][399]LogTemp: Warning: Im Here2 
+[2021.02.21-21.36.03:368][425]LogTemp: Warning: Im Here1 
+[2021.02.21-21.36.03:368][425]LogTemp: Warning: Im Here2 
+[2021.02.21-21.36.03:619][450]LogTemp: Warning: Im Here1 
+[2021.02.21-21.36.03:619][450]LogTemp: Warning: Im Here2 
+[2021.02.21-21.36.03:807][469]LogTemp: Warning: Im Here1 
+[2021.02.21-21.36.03:807][469]LogTemp: Warning: Im Here2 
+[2021.02.21-21.36.04:043][493]LogTemp: Warning: Im Here1 
+[2021.02.21-21.36.04:043][493]LogTemp: Warning: Im Here2 
+[2021.02.21-21.36.04:265][516]LogTemp: Warning: Im Here1 
+[2021.02.21-21.36.04:265][516]LogTemp: Warning: Im Here2 
+[2021.02.21-21.36.05:868][684]LogTemp: Warning: Im Here1 
+[2021.02.21-21.36.05:868][684]LogTemp: Warning: Im Here2 
+[2021.02.21-21.36.06:151][713]LogTemp: Warning: Im Here1 
+[2021.02.21-21.36.06:151][713]LogTemp: Warning: Im Here2 
+[2021.02.21-21.36.06:362][735]LogTemp: Warning: Im Here1 
+[2021.02.21-21.36.06:362][735]LogTemp: Warning: Im Here2 
+[2021.02.21-21.36.06:602][760]LogTemp: Warning: Im Here1 
+[2021.02.21-21.36.06:602][760]LogTemp: Warning: Im Here2 
+[2021.02.21-21.36.06:951][796]LogTemp: Warning: Im Here1 
+[2021.02.21-21.36.06:951][796]LogTemp: Warning: Im Here2 
+[2021.02.21-21.36.52:493][125]LogHotReload: New module detected: UE4Editor-coopgame-0001.dll
+[2021.02.21-21.36.56:575][291]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.21-21.36.56:575][291]LogWorld: BeginTearingDown for /Game/UEDPIE_0_NewLevel
+[2021.02.21-21.36.56:575][291]LogWorld: UWorld::CleanupWorld for NewLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.21-21.36.56:575][291]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.21-21.36.56:578][291]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.21-21.36.56:581][291]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.21-21.36.56:605][291]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.21-21.36.56:606][291]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019D390A65C0), frame # 46291
+[2021.02.21-21.36.56:606][291]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019D376C1C00), frame # 46291
+[2021.02.21-21.36.56:608][291]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2021.02.21-21.36.56:647][292]LogHotReload: Starting Hot-Reload from IDE
+[2021.02.21-21.36.56:694][292]LogContentBrowser: Native class hierarchy updated for 'coopgame' in 0.0003 seconds. Added 5 classes and 3 folders.
+[2021.02.21-21.36.56:696][292]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2021.02.21-21.36.56:764][292]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 3432 classes and 824 folders.
+[2021.02.21-21.36.56:767][292]Display: HotReload took  0.1s.
+[2021.02.21-21.36.56:834][292]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.02.21-21.36.59:592][579]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.21-21.36.59:602][579]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.21-21.36.59:603][579]PIE: New page: PIE session: NewLevel (Feb 22, 2021, 1:36:59 AM)
+[2021.02.21-21.36.59:603][579]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewLevel
+[2021.02.21-21.36.59:604][579]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001729s)
+[2021.02.21-21.36.59:607][579]LogAIModule: Creating AISystem for world NewLevel
+[2021.02.21-21.36.59:607][579]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019D39C9C600), frame # 46579
+[2021.02.21-21.36.59:607][579]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019D491A7D80), frame # 46579
+[2021.02.21-21.36.59:607][579]LogPlayLevel: PIE: World Init took: (0.002686s)
+[2021.02.21-21.36.59:607][579]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewLevel.NewLevel to /Game/UEDPIE_0_NewLevel.NewLevel (0.004489s)
+[2021.02.21-21.36.59:656][579]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2021.02.21-21.36.59:657][579]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.21-21.36.59:657][579]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.21-21.36.59:657][579]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.21-21.36.59:657][579]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.21-21.36.59:657][579]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.21-21.36.59:657][579]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.21-21.36.59:657][579]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.21-21.36.59:657][579]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.21-21.36.59:658][579]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.21-21.36.59:658][579]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.21-21.36.59:660][579]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.21-21.36.59:660][579]LogAudioMixer: Display: 1: FrontRight
+[2021.02.21-21.36.59:669][579]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2021.02.21-21.36.59:670][579]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.21-21.36.59:670][579]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.21-21.36.59:670][579]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.21-21.36.59:670][579]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.21-21.36.59:679][579]LogInit: FAudioDevice initialized.
+[2021.02.21-21.36.59:688][579]LogLoad: Game class is 'GameModeBase'
+[2021.02.21-21.36.59:690][579]LogWorld: Bringing World /Game/UEDPIE_0_NewLevel.NewLevel up for play (max tick rate 0) at 2021.02.21-23.36.59
+[2021.02.21-21.36.59:690][579]LogWorld: Bringing up level for play took: 0.001023
+[2021.02.21-21.36.59:690][579]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2021.02.21-21.36.59:691][579]PIE: Server logged in
+[2021.02.21-21.36.59:692][579]PIE: Play in editor total start time 0.092 seconds.
+[2021.02.21-21.37.00:854][715]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.21-21.37.00:854][715]LogWorld: BeginTearingDown for /Game/UEDPIE_0_NewLevel
+[2021.02.21-21.37.00:854][715]LogWorld: UWorld::CleanupWorld for NewLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.21-21.37.00:854][715]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.21-21.37.00:864][715]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.21-21.37.00:867][715]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.21-21.37.00:900][715]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.21-21.37.00:914][715]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019D39C9C600), frame # 46715
+[2021.02.21-21.37.00:914][715]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019D491A7D80), frame # 46715
+[2021.02.21-21.37.00:919][715]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2021.02.21-21.37.00:935][716]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2021.02.21-21.37.02:395][878]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.21-21.37.02:403][878]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.21-21.37.02:403][878]PIE: New page: PIE session: NewLevel (Feb 22, 2021, 1:37:02 AM)
+[2021.02.21-21.37.02:403][878]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewLevel
+[2021.02.21-21.37.02:405][878]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001712s)
+[2021.02.21-21.37.02:406][878]LogAIModule: Creating AISystem for world NewLevel
+[2021.02.21-21.37.02:406][878]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019CBE9E6400), frame # 46878
+[2021.02.21-21.37.02:406][878]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019D386C8CC0), frame # 46878
+[2021.02.21-21.37.02:406][878]LogPlayLevel: PIE: World Init took: (0.000770s)
+[2021.02.21-21.37.02:406][878]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewLevel.NewLevel to /Game/UEDPIE_0_NewLevel.NewLevel (0.002554s)
+[2021.02.21-21.37.02:417][878]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2021.02.21-21.37.02:418][878]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.21-21.37.02:418][878]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.21-21.37.02:418][878]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.21-21.37.02:418][878]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.21-21.37.02:418][878]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.21-21.37.02:418][878]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.21-21.37.02:418][878]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.21-21.37.02:419][878]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.21-21.37.02:419][878]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.21-21.37.02:419][878]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.21-21.37.02:421][878]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.21-21.37.02:421][878]LogAudioMixer: Display: 1: FrontRight
+[2021.02.21-21.37.02:430][878]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2021.02.21-21.37.02:430][878]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.21-21.37.02:430][878]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.21-21.37.02:430][878]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.21-21.37.02:431][878]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.21-21.37.02:431][878]LogInit: FAudioDevice initialized.
+[2021.02.21-21.37.02:443][878]LogLoad: Game class is 'GameModeBase'
+[2021.02.21-21.37.02:444][878]LogWorld: Bringing World /Game/UEDPIE_0_NewLevel.NewLevel up for play (max tick rate 0) at 2021.02.21-23.37.02
+[2021.02.21-21.37.02:445][878]LogWorld: Bringing up level for play took: 0.001037
+[2021.02.21-21.37.02:445][878]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2021.02.21-21.37.02:446][878]PIE: Server logged in
+[2021.02.21-21.37.02:447][878]PIE: Play in editor total start time 0.044 seconds.
+[2021.02.21-21.37.03:564][ 12]LogTemp: Warning: Im Here1 
+[2021.02.21-21.37.04:173][ 85]LogTemp: Warning: Im Here1 
+[2021.02.21-21.37.14:244][501]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.21-21.37.14:244][501]LogWorld: BeginTearingDown for /Game/UEDPIE_0_NewLevel
+[2021.02.21-21.37.14:244][501]LogWorld: UWorld::CleanupWorld for NewLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.21-21.37.14:244][501]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.21-21.37.14:251][501]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.21-21.37.14:253][501]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.21-21.37.14:276][501]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.21-21.37.14:277][501]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019D386C8CC0), frame # 47501
+[2021.02.21-21.37.14:277][501]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019CBE9E6400), frame # 47501
+[2021.02.21-21.37.14:278][501]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2021.02.21-21.37.14:320][504]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2021.02.21-21.37.14:836][566]LogEditorViewport: Clicking on Actor (LMB): PlayerPawn_C (PlayerPawn)
+[2021.02.21-21.42.39:603][698]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2021.02.21-21.42.39:624][698]LogSavePackage: Moving '../../../../../../Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/NewLevel_Auto2EB92148D439493486E9B3787EF1EE41E.tmp' to '../../../../../../Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/Autosaves/Game/NewLevel_Auto2.umap'
+[2021.02.21-21.42.39:626][698]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewLevel' took 0.037
+[2021.02.21-21.42.39:626][698]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.037
+[2021.02.21-21.42.39:626][698]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/PlayerPawn] ([1] browsable assets)...
+[2021.02.21-21.42.39:642][698]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/PlayerPawn.PlayerPawn]
+[2021.02.21-21.42.39:642][698]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/PlayerPawn]
+[2021.02.21-21.42.39:664][698]LogSavePackage: Moving '../../../../../../Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/PlayerPawn_Auto2D23CE71446EC167638CE9F9C7699C83B.tmp' to '../../../../../../Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/Autosaves/Game/BluePrints/PlayerPawn_Auto2.uasset'
+[2021.02.21-21.42.39:665][698]LogFileHelpers: Auto-saving content packages took 0.039
+[2021.02.22-07.45.15:725][720]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.22-07.45.15:735][720]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.22-07.45.15:735][720]PIE: New page: PIE session: NewLevel (Feb 22, 2021, 11:45:15 AM)
+[2021.02.22-07.45.15:735][720]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewLevel
+[2021.02.22-07.45.15:739][720]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003650s)
+[2021.02.22-07.45.15:740][720]LogAIModule: Creating AISystem for world NewLevel
+[2021.02.22-07.45.15:741][720]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019D3CEFDA00), frame # 159720
+[2021.02.22-07.45.15:741][720]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019D3D970680), frame # 159720
+[2021.02.22-07.45.15:741][720]LogPlayLevel: PIE: World Init took: (0.002101s)
+[2021.02.22-07.45.15:741][720]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewLevel.NewLevel to /Game/UEDPIE_0_NewLevel.NewLevel (0.005900s)
+[2021.02.22-07.45.15:759][720]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2021.02.22-07.45.15:763][720]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.22-07.45.15:763][720]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.22-07.45.15:763][720]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.22-07.45.15:763][720]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.22-07.45.15:763][720]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.22-07.45.15:763][720]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.22-07.45.15:763][720]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.22-07.45.15:763][720]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.22-07.45.15:764][720]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.22-07.45.15:764][720]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.22-07.45.15:766][720]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.22-07.45.15:767][720]LogAudioMixer: Display: 1: FrontRight
+[2021.02.22-07.45.15:778][720]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2021.02.22-07.45.15:778][720]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.22-07.45.15:778][720]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.22-07.45.15:778][720]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.22-07.45.15:779][720]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.22-07.45.15:788][720]LogInit: FAudioDevice initialized.
+[2021.02.22-07.45.15:798][720]LogLoad: Game class is 'GameModeBase'
+[2021.02.22-07.45.15:800][720]LogWorld: Bringing World /Game/UEDPIE_0_NewLevel.NewLevel up for play (max tick rate 0) at 2021.02.22-09.45.15
+[2021.02.22-07.45.15:800][720]LogWorld: Bringing up level for play took: 0.001871
+[2021.02.22-07.45.15:801][720]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2021.02.22-07.45.15:804][720]PIE: Server logged in
+[2021.02.22-07.45.15:804][720]PIE: Play in editor total start time 0.07 seconds.
+[2021.02.22-07.45.16:016][740]LogTemp: Warning: Im Here1 
+[2021.02.22-07.45.16:016][740]LogTemp: Warning: Im Here2 
+[2021.02.22-07.45.16:460][788]LogTemp: Warning: Im Here1 
+[2021.02.22-07.45.16:460][788]LogTemp: Warning: Im Here2 
+[2021.02.22-07.45.17:735][921]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-07.45.17:735][921]LogWorld: BeginTearingDown for /Game/UEDPIE_0_NewLevel
+[2021.02.22-07.45.17:735][921]LogWorld: UWorld::CleanupWorld for NewLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.22-07.45.17:736][921]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-07.45.17:745][921]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.22-07.45.17:748][921]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-07.45.17:766][921]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-07.45.17:781][921]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019D3D970680), frame # 159921
+[2021.02.22-07.45.17:781][921]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019D3CEFDA00), frame # 159921
+[2021.02.22-07.45.17:782][921]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2021.02.22-07.45.17:825][922]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2021.02.22-08.10.13:312][523]LogEditorViewport: Clicking on Actor (LMB): PlayerPawn_C (PlayerPawn)
+[2021.02.22-08.10.15:357][703]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/PlayerPawn.PlayerPawn
+[2021.02.22-08.55.45:979][623]BlueprintLog: New page: Compile PlayerPawn
+[2021.02.22-08.55.46:147][623]LogUObjectHash: Compacting FUObjectHashTables data took   5.19ms
+[2021.02.22-08.56.16:591][227]LogHotReload: New module detected: UE4Editor-coopgame-0003.dll
+[2021.02.22-08.56.16:947][229]LogHotReload: Starting Hot-Reload from IDE
+[2021.02.22-08.56.17:026][229]LogContentBrowser: Native class hierarchy updated for 'coopgame' in 0.0009 seconds. Added 5 classes and 3 folders.
+[2021.02.22-08.56.17:028][229]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2021.02.22-08.56.17:107][229]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 3432 classes and 824 folders.
+[2021.02.22-08.56.17:110][229]Display: HotReload took  0.2s.
+[2021.02.22-08.56.17:710][230]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2021.02.22-08.56.17:735][230]LogSavePackage: Moving '../../../../../../Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/NewLevel_Auto3F485AEEC49D94CAC8B1F95A9CE7C2286.tmp' to '../../../../../../Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/Autosaves/Game/NewLevel_Auto3.umap'
+[2021.02.22-08.56.17:740][230]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewLevel' took 0.097
+[2021.02.22-08.56.17:740][230]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.097
+[2021.02.22-08.56.17:740][230]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/PlayerPawn] ([1] browsable assets)...
+[2021.02.22-08.56.17:756][230]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/PlayerPawn.PlayerPawn]
+[2021.02.22-08.56.17:756][230]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/PlayerPawn]
+[2021.02.22-08.56.17:787][230]LogSavePackage: Moving '../../../../../../Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/PlayerPawn_Auto3AB227BCF47BC4114E0B5D7BB425C90FD.tmp' to '../../../../../../Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/Autosaves/Game/BluePrints/PlayerPawn_Auto3.uasset'
+[2021.02.22-08.56.17:788][230]LogFileHelpers: Auto-saving content packages took 0.048
+[2021.02.22-08.56.26:623][533]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.22-08.56.26:634][533]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.22-08.56.26:634][533]PIE: New page: PIE session: NewLevel (Feb 22, 2021, 12:56:26 PM)
+[2021.02.22-08.56.26:634][533]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewLevel
+[2021.02.22-08.56.26:637][533]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002896s)
+[2021.02.22-08.56.26:638][533]LogAIModule: Creating AISystem for world NewLevel
+[2021.02.22-08.56.26:638][533]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019D3E922400), frame # 192533
+[2021.02.22-08.56.26:638][533]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019D0F4C07C0), frame # 192533
+[2021.02.22-08.56.26:638][533]LogPlayLevel: PIE: World Init took: (0.001049s)
+[2021.02.22-08.56.26:638][533]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewLevel.NewLevel to /Game/UEDPIE_0_NewLevel.NewLevel (0.004058s)
+[2021.02.22-08.56.26:663][533]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2021.02.22-08.56.26:667][533]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.22-08.56.26:667][533]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.22-08.56.26:667][533]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.22-08.56.26:667][533]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.22-08.56.26:667][533]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.22-08.56.26:667][533]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.22-08.56.26:667][533]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.22-08.56.26:667][533]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.22-08.56.26:667][533]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.22-08.56.26:667][533]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.22-08.56.26:671][533]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.22-08.56.26:671][533]LogAudioMixer: Display: 1: FrontRight
+[2021.02.22-08.56.26:686][533]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2021.02.22-08.56.26:686][533]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.22-08.56.26:686][533]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.22-08.56.26:686][533]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.22-08.56.26:687][533]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.22-08.56.26:697][533]LogInit: FAudioDevice initialized.
+[2021.02.22-08.56.26:704][533]LogLoad: Game class is 'GameModeBase'
+[2021.02.22-08.56.26:706][533]LogWorld: Bringing World /Game/UEDPIE_0_NewLevel.NewLevel up for play (max tick rate 0) at 2021.02.22-10.56.26
+[2021.02.22-08.56.26:706][533]LogWorld: Bringing up level for play took: 0.001223
+[2021.02.22-08.56.26:706][533]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2021.02.22-08.56.26:708][533]PIE: Server logged in
+[2021.02.22-08.56.26:709][533]PIE: Play in editor total start time 0.078 seconds.
+[2021.02.22-08.56.27:036][555]LogScript: Warning: Accessed None trying to read property CurrentWeapon
+	PlayerPawn_C /Game/UEDPIE_0_NewLevel.NewLevel:PersistentLevel.PlayerPawn_2
+	Function /Game/BluePrints/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn:007C
+[2021.02.22-08.56.27:036][555]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentWeapon". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  Fire
+[2021.02.22-08.56.27:712][623]LogScript: Warning: Accessed None trying to read property CurrentWeapon
+	PlayerPawn_C /Game/UEDPIE_0_NewLevel.NewLevel:PersistentLevel.PlayerPawn_2
+	Function /Game/BluePrints/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn:007C
+[2021.02.22-08.56.27:712][623]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentWeapon". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  Fire
+[2021.02.22-08.56.28:052][658]LogScript: Warning: Accessed None trying to read property CurrentWeapon
+	PlayerPawn_C /Game/UEDPIE_0_NewLevel.NewLevel:PersistentLevel.PlayerPawn_2
+	Function /Game/BluePrints/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn:007C
+[2021.02.22-08.56.28:052][658]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentWeapon". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  Fire
+[2021.02.22-08.56.28:476][698]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-08.56.28:476][698]LogWorld: BeginTearingDown for /Game/UEDPIE_0_NewLevel
+[2021.02.22-08.56.28:477][698]LogWorld: UWorld::CleanupWorld for NewLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.22-08.56.28:477][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-08.56.28:485][698]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.22-08.56.28:488][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-08.56.28:517][698]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-08.56.28:517][698]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019D0F4C07C0), frame # 192698
+[2021.02.22-08.56.28:517][698]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019D3E922400), frame # 192698
+[2021.02.22-08.56.28:519][698]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2021.02.22-08.56.28:615][699]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2021.02.22-08.56.29:839][807]LogSlate: Window 'Message Log' being destroyed
+[2021.02.22-08.56.29:844][807]LogSlate: Window 'Message Log' being destroyed
+[2021.02.22-08.56.31:941][ 52]LogEditorViewport: Clicking on Actor (LMB): PlayerPawn_C (PlayerPawn)
+[2021.02.22-08.56.36:886][455]Candidate modules for hot reload:
+[2021.02.22-08.56.36:886][455]  coopgame
+[2021.02.22-08.56.36:886][455]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=coopgame,1078 coopgameEditor Win64 Development -Project="C:/Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/coopgame.uproject" "C:/Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/coopgame.uproject"  -IgnoreJunk]
+[2021.02.22-08.56.36:887][455]Warning: Starting HotReload took  0.0s.
+[2021.02.22-08.56.37:999][522]CompilerResultsLog: New page: Compilation - Feb 22, 2021, 12:56:37 PM
+[2021.02.22-08.56.37:999][522]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Gal\Desktop\Unreal-TomLomman\fpsGame\coopgame\coopgame\MyFpsGameNew\MyFpsGameNew).
+[2021.02.22-08.56.37:999][522]CompilerResultsLog: Building coopgameEditor...
+[2021.02.22-08.56.37:999][522]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.22-08.56.37:999][522]CompilerResultsLog: Building 3 actions with 16 processes...
+[2021.02.22-08.56.37:999][522]CompilerResultsLog:   [1/3] UE4Editor-coopgame-1078.lib
+[2021.02.22-08.56.37:999][522]CompilerResultsLog:      Creating library C:\Users\Gal\Desktop\Unreal-TomLomman\fpsGame\coopgame\coopgame\MyFpsGameNew\MyFpsGameNew\Intermediate\Build\Win64\UE4Editor\Development\coopgame\UE4Editor-coopgame-1078.lib and object C:\Users\Gal\Desktop\Unreal-TomLomman\fpsGame\coopgame\coopgame\MyFpsGameNew\MyFpsGameNew\Intermediate\Build\Win64\UE4Editor\Development\coopgame\UE4Editor-coopgame-1078.exp
+[2021.02.22-08.56.37:999][522]CompilerResultsLog:   [2/3] UE4Editor-coopgame-1078.dll
+[2021.02.22-08.56.37:999][522]CompilerResultsLog:      Creating library C:\Users\Gal\Desktop\Unreal-TomLomman\fpsGame\coopgame\coopgame\MyFpsGameNew\MyFpsGameNew\Intermediate\Build\Win64\UE4Editor\Development\coopgame\UE4Editor-coopgame-1078.suppressed.lib and object C:\Users\Gal\Desktop\Unreal-TomLomman\fpsGame\coopgame\coopgame\MyFpsGameNew\MyFpsGameNew\Intermediate\Build\Win64\UE4Editor\Development\coopgame\UE4Editor-coopgame-1078.suppressed.exp
+[2021.02.22-08.56.37:999][522]CompilerResultsLog:   [3/3] coopgameEditor.target
+[2021.02.22-08.56.37:999][522]CompilerResultsLog: Total time in Parallel executor: 0.64 seconds
+[2021.02.22-08.56.37:999][522]CompilerResultsLog: Total execution time: 1.04 seconds
+[2021.02.22-08.56.37:999][522]LogMainFrame: MainFrame: Module compiling took 1.116 seconds
+[2021.02.22-08.56.38:031][522]LogContentBrowser: Native class hierarchy updated for 'coopgame' in 0.0003 seconds. Added 5 classes and 3 folders.
+[2021.02.22-08.56.38:035][522]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2021.02.22-08.56.38:121][522]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 3432 classes and 824 folders.
+[2021.02.22-08.56.38:121][522]Display: HotReload took  1.3s.
+[2021.02.22-08.56.39:205][600]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.22-08.56.39:215][600]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.22-08.56.39:216][600]PIE: New page: PIE session: NewLevel (Feb 22, 2021, 12:56:39 PM)
+[2021.02.22-08.56.39:242][600]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewLevel
+[2021.02.22-08.56.39:244][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001890s)
+[2021.02.22-08.56.39:245][600]LogAIModule: Creating AISystem for world NewLevel
+[2021.02.22-08.56.39:245][600]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019D47C33E00), frame # 193600
+[2021.02.22-08.56.39:245][600]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019D47C3E480), frame # 193600
+[2021.02.22-08.56.39:245][600]LogPlayLevel: PIE: World Init took: (0.001062s)
+[2021.02.22-08.56.39:245][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewLevel.NewLevel to /Game/UEDPIE_0_NewLevel.NewLevel (0.003054s)
+[2021.02.22-08.56.39:296][600]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2021.02.22-08.56.39:298][600]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.22-08.56.39:298][600]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.22-08.56.39:298][600]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.22-08.56.39:298][600]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.22-08.56.39:298][600]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.22-08.56.39:298][600]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.22-08.56.39:298][600]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.22-08.56.39:298][600]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.22-08.56.39:299][600]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.22-08.56.39:299][600]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.22-08.56.39:301][600]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.22-08.56.39:301][600]LogAudioMixer: Display: 1: FrontRight
+[2021.02.22-08.56.39:311][600]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2021.02.22-08.56.39:311][600]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.22-08.56.39:311][600]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.22-08.56.39:311][600]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.22-08.56.39:312][600]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.22-08.56.39:321][600]LogInit: FAudioDevice initialized.
+[2021.02.22-08.56.39:327][600]LogLoad: Game class is 'GameModeBase'
+[2021.02.22-08.56.39:328][600]LogWorld: Bringing World /Game/UEDPIE_0_NewLevel.NewLevel up for play (max tick rate 0) at 2021.02.22-10.56.39
+[2021.02.22-08.56.39:328][600]LogWorld: Bringing up level for play took: 0.001043
+[2021.02.22-08.56.39:329][600]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2021.02.22-08.56.39:330][600]PIE: Server logged in
+[2021.02.22-08.56.39:330][600]PIE: Play in editor total start time 0.117 seconds.
+[2021.02.22-08.56.39:471][605]LogScript: Warning: Accessed None trying to read property CurrentWeapon
+	PlayerPawn_C /Game/UEDPIE_0_NewLevel.NewLevel:PersistentLevel.PlayerPawn_2
+	Function /Game/BluePrints/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn:007C
+[2021.02.22-08.56.39:471][605]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentWeapon". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  Fire
+[2021.02.22-08.56.39:822][640]LogScript: Warning: Accessed None trying to read property CurrentWeapon
+	PlayerPawn_C /Game/UEDPIE_0_NewLevel.NewLevel:PersistentLevel.PlayerPawn_2
+	Function /Game/BluePrints/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn:007C
+[2021.02.22-08.56.39:822][640]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentWeapon". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  Fire
+[2021.02.22-08.56.40:029][661]LogScript: Warning: Accessed None trying to read property CurrentWeapon
+	PlayerPawn_C /Game/UEDPIE_0_NewLevel.NewLevel:PersistentLevel.PlayerPawn_2
+	Function /Game/BluePrints/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn:007C
+[2021.02.22-08.56.40:029][661]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentWeapon". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  Fire
+[2021.02.22-08.56.40:220][680]LogScript: Warning: Accessed None trying to read property CurrentWeapon
+	PlayerPawn_C /Game/UEDPIE_0_NewLevel.NewLevel:PersistentLevel.PlayerPawn_2
+	Function /Game/BluePrints/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn:007C
+[2021.02.22-08.56.40:221][680]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentWeapon". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  Fire
+[2021.02.22-08.56.40:581][716]LogScript: Warning: Accessed None trying to read property CurrentWeapon
+	PlayerPawn_C /Game/UEDPIE_0_NewLevel.NewLevel:PersistentLevel.PlayerPawn_2
+	Function /Game/BluePrints/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn:007C
+[2021.02.22-08.56.40:581][716]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentWeapon". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  Fire
+[2021.02.22-08.56.40:913][747]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-08.56.40:913][747]LogWorld: BeginTearingDown for /Game/UEDPIE_0_NewLevel
+[2021.02.22-08.56.40:913][747]LogWorld: UWorld::CleanupWorld for NewLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.22-08.56.40:913][747]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-08.56.40:918][747]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.22-08.56.40:922][747]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-08.56.40:941][747]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-08.56.40:969][747]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019D47C33E00), frame # 193747
+[2021.02.22-08.56.40:969][747]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019D47C3E480), frame # 193747
+[2021.02.22-08.56.40:971][747]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2021.02.22-08.56.41:063][748]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2021.02.22-08.56.47:075][437]LogSlate: Window 'Message Log' being destroyed
+[2021.02.22-08.56.47:080][437]LogSlate: Window 'Message Log' being destroyed
+[2021.02.22-09.06.35:748][909]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2021.02.22-09.06.35:753][909]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewLevel' took 0.028
+[2021.02.22-09.06.35:753][909]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/PlayerPawn] ([1] browsable assets)...
+[2021.02.22-09.06.35:772][909]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/PlayerPawn.PlayerPawn]
+[2021.02.22-09.06.35:772][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/PlayerPawn]
+[2021.02.22-09.06.35:802][909]LogSavePackage: Moving '../../../../../../Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/PlayerPawn_Auto4A3CF5DCE4B3EA83E2FFA40B0BBDD319D.tmp' to '../../../../../../Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/Autosaves/Game/BluePrints/PlayerPawn_Auto4.uasset'
+[2021.02.22-09.06.35:802][909]LogFileHelpers: Auto-saving content packages took 0.049
+[2021.02.22-13.24.33:146][125]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.22-13.24.33:162][125]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.02.22-13.24.33:167][125]LogPlayLevel: [PlayLevel] Compiling PlayerPawn before play...
+[2021.02.22-13.24.33:264][125]LogUObjectHash: Compacting FUObjectHashTables data took   6.00ms
+[2021.02.22-13.24.33:292][125]LogPlayLevel: PlayLevel: Blueprint regeneration took 131 ms (1 blueprints)
+[2021.02.22-13.24.33:292][125]PIE: New page: PIE session: NewLevel (Feb 22, 2021, 5:24:33 PM)
+[2021.02.22-13.24.33:320][125]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewLevel
+[2021.02.22-13.24.33:324][125]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004185s)
+[2021.02.22-13.24.33:325][125]LogAIModule: Creating AISystem for world NewLevel
+[2021.02.22-13.24.33:325][125]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019D2F227600), frame # 315125
+[2021.02.22-13.24.33:325][125]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019D3E60D080), frame # 315125
+[2021.02.22-13.24.33:326][125]LogPlayLevel: PIE: World Init took: (0.001547s)
+[2021.02.22-13.24.33:326][125]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewLevel.NewLevel to /Game/UEDPIE_0_NewLevel.NewLevel (0.005932s)
+[2021.02.22-13.24.33:346][125]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2021.02.22-13.24.33:347][125]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.22-13.24.33:347][125]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.22-13.24.33:347][125]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.22-13.24.33:347][125]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.22-13.24.33:347][125]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.22-13.24.33:347][125]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.22-13.24.33:347][125]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.22-13.24.33:347][125]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.22-13.24.33:348][125]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.22-13.24.33:348][125]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.22-13.24.33:351][125]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.22-13.24.33:351][125]LogAudioMixer: Display: 1: FrontRight
+[2021.02.22-13.24.33:363][125]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2021.02.22-13.24.33:363][125]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.22-13.24.33:363][125]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.22-13.24.33:363][125]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.22-13.24.33:364][125]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.22-13.24.33:373][125]LogInit: FAudioDevice initialized.
+[2021.02.22-13.24.33:390][125]LogLoad: Game class is 'GameModeBase'
+[2021.02.22-13.24.33:391][125]LogWorld: Bringing World /Game/UEDPIE_0_NewLevel.NewLevel up for play (max tick rate 0) at 2021.02.22-15.24.33
+[2021.02.22-13.24.33:391][125]LogWorld: Bringing up level for play took: 0.001590
+[2021.02.22-13.24.33:392][125]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2021.02.22-13.24.33:394][125]PIE: Server logged in
+[2021.02.22-13.24.33:395][125]PIE: Play in editor total start time 0.235 seconds.
+[2021.02.22-13.24.33:964][190]LogSlate: Window 'PlayerPawn' being destroyed
+[2021.02.22-13.24.33:969][190]LogSlate: Window 'PlayerPawn' being destroyed
+[2021.02.22-13.24.33:970][190]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.02.22-13.24.33:970][190]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-13.24.36:870][523]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-13.24.36:870][523]LogWorld: BeginTearingDown for /Game/UEDPIE_0_NewLevel
+[2021.02.22-13.24.36:870][523]LogWorld: UWorld::CleanupWorld for NewLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.22-13.24.36:870][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-13.24.36:874][523]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.22-13.24.36:879][523]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-13.24.36:898][523]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-13.24.36:925][523]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019D3E60D080), frame # 315523
+[2021.02.22-13.24.36:925][523]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019D2F227600), frame # 315523
+[2021.02.22-13.24.36:958][523]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2021.02.22-13.24.36:979][524]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2021.02.22-13.24.38:089][652]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.22-13.24.38:097][652]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.22-13.24.38:097][652]PIE: New page: PIE session: NewLevel (Feb 22, 2021, 5:24:38 PM)
+[2021.02.22-13.24.38:119][652]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewLevel
+[2021.02.22-13.24.38:121][652]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002066s)
+[2021.02.22-13.24.38:121][652]LogAIModule: Creating AISystem for world NewLevel
+[2021.02.22-13.24.38:121][652]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019CDD95A400), frame # 315652
+[2021.02.22-13.24.38:121][652]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019D2DAA0A40), frame # 315652
+[2021.02.22-13.24.38:122][652]LogPlayLevel: PIE: World Init took: (0.000838s)
+[2021.02.22-13.24.38:122][652]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewLevel.NewLevel to /Game/UEDPIE_0_NewLevel.NewLevel (0.003001s)
+[2021.02.22-13.24.38:176][652]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2021.02.22-13.24.38:178][652]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.22-13.24.38:178][652]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.22-13.24.38:178][652]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.22-13.24.38:178][652]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.22-13.24.38:178][652]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.22-13.24.38:178][652]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.22-13.24.38:178][652]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.22-13.24.38:178][652]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.22-13.24.38:178][652]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.22-13.24.38:178][652]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.22-13.24.38:181][652]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.22-13.24.38:181][652]LogAudioMixer: Display: 1: FrontRight
+[2021.02.22-13.24.38:191][652]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2021.02.22-13.24.38:191][652]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.22-13.24.38:191][652]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.22-13.24.38:191][652]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.22-13.24.38:192][652]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.22-13.24.38:201][652]LogInit: FAudioDevice initialized.
+[2021.02.22-13.24.38:206][652]LogLoad: Game class is 'GameModeBase'
+[2021.02.22-13.24.38:207][652]LogWorld: Bringing World /Game/UEDPIE_0_NewLevel.NewLevel up for play (max tick rate 0) at 2021.02.22-15.24.38
+[2021.02.22-13.24.38:207][652]LogWorld: Bringing up level for play took: 0.001035
+[2021.02.22-13.24.38:208][652]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2021.02.22-13.24.38:209][652]PIE: Server logged in
+[2021.02.22-13.24.38:210][652]PIE: Play in editor total start time 0.112 seconds.
+[2021.02.22-13.24.39:851][845]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-13.24.39:851][845]LogWorld: BeginTearingDown for /Game/UEDPIE_0_NewLevel
+[2021.02.22-13.24.39:852][845]LogWorld: UWorld::CleanupWorld for NewLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.22-13.24.39:853][845]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-13.24.39:869][845]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.22-13.24.39:875][845]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-13.24.39:887][845]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-13.24.39:899][845]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019D2DAA0A40), frame # 315845
+[2021.02.22-13.24.39:899][845]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019CDD95A400), frame # 315845
+[2021.02.22-13.24.39:901][845]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2021.02.22-13.24.39:936][848]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2021.02.22-13.24.40:875][958]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/PlayerPawn.PlayerPawn
+[2021.02.22-13.25.23:334][134]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2021.02.22-13.25.23:368][134]LogSavePackage: Moving '../../../../../../Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/NewLevel_Auto563C1B33242140C95FD7F44B332746EC0.tmp' to '../../../../../../Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/Autosaves/Game/NewLevel_Auto5.umap'
+[2021.02.22-13.25.23:369][134]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewLevel' took 0.051
+[2021.02.22-13.25.23:369][134]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.051
+[2021.02.22-13.30.56:800][256]LogSlate: Window 'PlayerPawn' being destroyed
+[2021.02.22-13.30.56:804][256]LogSlate: Window 'PlayerPawn' being destroyed
+[2021.02.22-13.30.56:829][256]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2021.02.22-13.30.56:829][256]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-13.31.15:651][791]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/PlayerPawn.PlayerPawn
+[2021.02.22-13.32.47:930][208]LogHotReload: New module detected: UE4Editor-coopgame-0005.dll
+[2021.02.22-13.32.48:279][210]LogHotReload: Starting Hot-Reload from IDE
+[2021.02.22-13.32.48:349][210]LogClass: Could not find existing class SChar in package /Script/coopgame for HotReload, assuming new class
+[2021.02.22-13.32.48:349][210]LogClass: Function ChangeWeapon is new.
+[2021.02.22-13.32.48:358][210]LogHotReload: Re-instancing SChar after hot-reload.
+[2021.02.22-13.32.48:358][210]LogK2Compiler: Warning: ValidateVariableNames name CurrentWeapon (used in /Game/BluePrints/PlayerPawn.PlayerPawn) is already taken by /Script/coopgame.SChar:CurrentWeapon
+[2021.02.22-13.32.48:359][210]LogBlueprint: Warning: [Compiler PlayerPawn] Found a member variable with a conflicting name (CurrentWeapon) - changed to CurrentWeapon_0.
+[2021.02.22-13.32.48:409][210]LogContentBrowser: Native class hierarchy updated for 'coopgame' in 0.0005 seconds. Added 5 classes and 3 folders.
+[2021.02.22-13.32.48:412][210]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2021.02.22-13.32.48:483][210]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 3432 classes and 824 folders.
+[2021.02.22-13.32.48:485][210]Display: HotReload took  0.2s.
+[2021.02.22-13.32.51:627][352]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.22-13.32.51:638][352]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.22-13.32.51:638][352]PIE: New page: PIE session: NewLevel (Feb 22, 2021, 5:32:51 PM)
+[2021.02.22-13.32.51:669][352]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewLevel
+[2021.02.22-13.32.51:671][352]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002025s)
+[2021.02.22-13.32.51:672][352]LogAIModule: Creating AISystem for world NewLevel
+[2021.02.22-13.32.51:672][352]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019D3B19C800), frame # 324352
+[2021.02.22-13.32.51:672][352]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019D3DD9EAC0), frame # 324352
+[2021.02.22-13.32.51:672][352]LogPlayLevel: PIE: World Init took: (0.000883s)
+[2021.02.22-13.32.51:672][352]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewLevel.NewLevel to /Game/UEDPIE_0_NewLevel.NewLevel (0.003019s)
+[2021.02.22-13.32.51:726][352]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2021.02.22-13.32.51:727][352]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.22-13.32.51:727][352]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.22-13.32.51:727][352]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.22-13.32.51:727][352]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.22-13.32.51:727][352]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.22-13.32.51:727][352]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.22-13.32.51:727][352]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.22-13.32.51:727][352]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.22-13.32.51:727][352]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.22-13.32.51:727][352]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.22-13.32.51:730][352]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.22-13.32.51:730][352]LogAudioMixer: Display: 1: FrontRight
+[2021.02.22-13.32.51:740][352]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2021.02.22-13.32.51:740][352]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.22-13.32.51:740][352]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.22-13.32.51:741][352]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.22-13.32.51:741][352]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.22-13.32.51:751][352]LogInit: FAudioDevice initialized.
+[2021.02.22-13.32.51:757][352]LogLoad: Game class is 'GameModeBase'
+[2021.02.22-13.32.51:758][352]LogWorld: Bringing World /Game/UEDPIE_0_NewLevel.NewLevel up for play (max tick rate 0) at 2021.02.22-15.32.51
+[2021.02.22-13.32.51:759][352]LogWorld: Bringing up level for play took: 0.001118
+[2021.02.22-13.32.51:759][352]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2021.02.22-13.32.51:760][352]PIE: Server logged in
+[2021.02.22-13.32.51:761][352]PIE: Play in editor total start time 0.125 seconds.
+[2021.02.22-13.32.53:699][579]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-13.32.53:699][579]LogWorld: BeginTearingDown for /Game/UEDPIE_0_NewLevel
+[2021.02.22-13.32.53:699][579]LogWorld: UWorld::CleanupWorld for NewLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.22-13.32.53:700][579]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-13.32.53:706][579]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.22-13.32.53:710][579]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-13.32.53:742][579]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-13.32.53:743][579]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019D3DD9EAC0), frame # 324579
+[2021.02.22-13.32.53:743][579]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019D3B19C800), frame # 324579
+[2021.02.22-13.32.53:750][579]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2021.02.22-13.32.53:764][580]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2021.02.22-13.33.13:233][693]LogSlate: Window 'Delete Variable' being destroyed
+[2021.02.22-13.33.42:400][ 73]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Source/coopgame/Public/SChar.h'
+[2021.02.22-13.35.26:082][620]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2021.02.22-13.35.26:085][620]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NewLevel' took 0.025
+[2021.02.22-13.35.26:085][620]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/PlayerPawn] ([1] browsable assets)...
+[2021.02.22-13.35.26:102][620]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/PlayerPawn.PlayerPawn]
+[2021.02.22-13.35.26:102][620]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/PlayerPawn]
+[2021.02.22-13.35.26:136][620]LogSavePackage: Moving '../../../../../../Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/PlayerPawn_Auto6102078D344A486DEA0ABAF869039D78A.tmp' to '../../../../../../Users/Gal/Desktop/Unreal-TomLomman/fpsGame/coopgame/coopgame/MyFpsGameNew/MyFpsGameNew/Saved/Autosaves/Game/BluePrints/PlayerPawn_Auto6.uasset'
+[2021.02.22-13.35.26:136][620]LogFileHelpers: Auto-saving content packages took 0.051
+[2021.02.22-13.35.48:144][740]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.22-13.35.48:152][740]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.02.22-13.35.48:153][740]LogPlayLevel: [PlayLevel] Compiling PlayerPawn before play...
+[2021.02.22-13.35.48:198][740]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2021.02.22-13.35.48:198][740]LogPlayLevel: PlayLevel: Blueprint regeneration took 45 ms (1 blueprints)
+[2021.02.22-13.35.48:198][740]PIE: New page: PIE session: NewLevel (Feb 22, 2021, 5:35:48 PM)
+[2021.02.22-13.35.48:229][740]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewLevel
+[2021.02.22-13.35.48:231][740]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001764s)
+[2021.02.22-13.35.48:232][740]LogAIModule: Creating AISystem for world NewLevel
+[2021.02.22-13.35.48:232][740]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019CE59DC800), frame # 333740
+[2021.02.22-13.35.48:232][740]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019CCD6CE700), frame # 333740
+[2021.02.22-13.35.48:232][740]LogPlayLevel: PIE: World Init took: (0.000793s)
+[2021.02.22-13.35.48:232][740]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewLevel.NewLevel to /Game/UEDPIE_0_NewLevel.NewLevel (0.002651s)
+[2021.02.22-13.35.48:251][740]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2021.02.22-13.35.48:252][740]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.22-13.35.48:252][740]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.22-13.35.48:252][740]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.22-13.35.48:252][740]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.22-13.35.48:252][740]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.22-13.35.48:252][740]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.22-13.35.48:252][740]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.22-13.35.48:252][740]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.22-13.35.48:252][740]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.22-13.35.48:252][740]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.22-13.35.48:254][740]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.22-13.35.48:255][740]LogAudioMixer: Display: 1: FrontRight
+[2021.02.22-13.35.48:264][740]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2021.02.22-13.35.48:265][740]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.22-13.35.48:265][740]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.22-13.35.48:265][740]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.22-13.35.48:265][740]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.22-13.35.48:273][740]LogInit: FAudioDevice initialized.
+[2021.02.22-13.35.48:284][740]LogLoad: Game class is 'GameModeBase'
+[2021.02.22-13.35.48:286][740]LogWorld: Bringing World /Game/UEDPIE_0_NewLevel.NewLevel up for play (max tick rate 0) at 2021.02.22-15.35.48
+[2021.02.22-13.35.48:286][740]LogWorld: Bringing up level for play took: 0.001224
+[2021.02.22-13.35.48:286][740]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2021.02.22-13.35.48:288][740]PIE: Server logged in
+[2021.02.22-13.35.48:288][740]PIE: Play in editor total start time 0.137 seconds.
+[2021.02.22-13.35.49:749][904]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-13.35.49:749][904]LogWorld: BeginTearingDown for /Game/UEDPIE_0_NewLevel
+[2021.02.22-13.35.49:750][904]LogWorld: UWorld::CleanupWorld for NewLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.22-13.35.49:750][904]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-13.35.49:762][904]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.22-13.35.49:767][904]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-13.35.49:795][904]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-13.35.49:807][904]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019CCD6CE700), frame # 333904
+[2021.02.22-13.35.49:807][904]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019CE59DC800), frame # 333904
+[2021.02.22-13.35.49:809][904]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2021.02.22-13.35.49:836][905]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2021.02.22-13.35.50:244][954]LogSlate: Window 'PlayerPawn' being destroyed
+[2021.02.22-13.35.50:248][954]LogSlate: Window 'PlayerPawn' being destroyed
+[2021.02.22-13.35.50:248][954]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2021.02.22-13.35.50:248][954]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-13.35.51:264][ 68]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.22-13.35.51:272][ 68]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.22-13.35.51:272][ 68]PIE: New page: PIE session: NewLevel (Feb 22, 2021, 5:35:51 PM)
+[2021.02.22-13.35.51:272][ 68]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewLevel
+[2021.02.22-13.35.51:274][ 68]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001717s)
+[2021.02.22-13.35.51:274][ 68]LogAIModule: Creating AISystem for world NewLevel
+[2021.02.22-13.35.51:274][ 68]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019D3E5ED400), frame # 334068
+[2021.02.22-13.35.51:274][ 68]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019D41C53380), frame # 334068
+[2021.02.22-13.35.51:275][ 68]LogPlayLevel: PIE: World Init took: (0.000804s)
+[2021.02.22-13.35.51:275][ 68]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewLevel.NewLevel to /Game/UEDPIE_0_NewLevel.NewLevel (0.002591s)
+[2021.02.22-13.35.51:313][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2021.02.22-13.35.51:314][ 68]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.22-13.35.51:314][ 68]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.22-13.35.51:314][ 68]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.22-13.35.51:314][ 68]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.22-13.35.51:314][ 68]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.22-13.35.51:314][ 68]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.22-13.35.51:314][ 68]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.22-13.35.51:314][ 68]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.22-13.35.51:314][ 68]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.22-13.35.51:314][ 68]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.22-13.35.51:317][ 68]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.22-13.35.51:317][ 68]LogAudioMixer: Display: 1: FrontRight
+[2021.02.22-13.35.51:326][ 68]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2021.02.22-13.35.51:326][ 68]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.22-13.35.51:326][ 68]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.22-13.35.51:326][ 68]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.22-13.35.51:326][ 68]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.22-13.35.51:335][ 68]LogInit: FAudioDevice initialized.
+[2021.02.22-13.35.51:350][ 68]LogLoad: Game class is 'GameModeBase'
+[2021.02.22-13.35.51:357][ 68]LogWorld: Bringing World /Game/UEDPIE_0_NewLevel.NewLevel up for play (max tick rate 0) at 2021.02.22-15.35.51
+[2021.02.22-13.35.51:357][ 68]LogWorld: Bringing up level for play took: 0.004815
+[2021.02.22-13.35.51:358][ 68]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2021.02.22-13.35.51:363][ 68]PIE: Server logged in
+[2021.02.22-13.35.51:364][ 68]PIE: Play in editor total start time 0.092 seconds.
+[2021.02.22-13.35.52:289][174]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-13.35.52:289][174]LogWorld: BeginTearingDown for /Game/UEDPIE_0_NewLevel
+[2021.02.22-13.35.52:289][174]LogWorld: UWorld::CleanupWorld for NewLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.22-13.35.52:290][174]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-13.35.52:295][174]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.22-13.35.52:299][174]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-13.35.52:331][174]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-13.35.52:336][174]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019D41C53380), frame # 334174
+[2021.02.22-13.35.52:336][174]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019D3E5ED400), frame # 334174
+[2021.02.22-13.35.52:360][174]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2021.02.22-13.35.52:379][175]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2021.02.22-13.35.53:530][310]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.22-13.35.53:539][310]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.22-13.35.53:539][310]PIE: New page: PIE session: NewLevel (Feb 22, 2021, 5:35:53 PM)
+[2021.02.22-13.35.53:539][310]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewLevel
+[2021.02.22-13.35.53:541][310]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001879s)
+[2021.02.22-13.35.53:541][310]LogAIModule: Creating AISystem for world NewLevel
+[2021.02.22-13.35.53:541][310]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019D2F7AF800), frame # 334310
+[2021.02.22-13.35.53:541][310]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019D38C0A200), frame # 334310
+[2021.02.22-13.35.53:541][310]LogPlayLevel: PIE: World Init took: (0.000777s)
+[2021.02.22-13.35.53:541][310]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewLevel.NewLevel to /Game/UEDPIE_0_NewLevel.NewLevel (0.002726s)
+[2021.02.22-13.35.53:555][310]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2021.02.22-13.35.53:557][310]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.22-13.35.53:557][310]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.22-13.35.53:557][310]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.22-13.35.53:557][310]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.22-13.35.53:557][310]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.22-13.35.53:557][310]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.22-13.35.53:557][310]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.22-13.35.53:557][310]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.22-13.35.53:557][310]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.22-13.35.53:557][310]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.22-13.35.53:560][310]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.22-13.35.53:560][310]LogAudioMixer: Display: 1: FrontRight
+[2021.02.22-13.35.53:569][310]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2021.02.22-13.35.53:569][310]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.22-13.35.53:569][310]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.22-13.35.53:569][310]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.22-13.35.53:569][310]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.22-13.35.53:578][310]LogInit: FAudioDevice initialized.
+[2021.02.22-13.35.53:582][310]LogLoad: Game class is 'GameModeBase'
+[2021.02.22-13.35.53:584][310]LogWorld: Bringing World /Game/UEDPIE_0_NewLevel.NewLevel up for play (max tick rate 0) at 2021.02.22-15.35.53
+[2021.02.22-13.35.53:584][310]LogWorld: Bringing up level for play took: 0.001055
+[2021.02.22-13.35.53:584][310]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2021.02.22-13.35.53:586][310]PIE: Server logged in
+[2021.02.22-13.35.53:586][310]PIE: Play in editor total start time 0.048 seconds.
+[2021.02.22-13.35.55:271][506]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-13.35.55:272][506]LogWorld: BeginTearingDown for /Game/UEDPIE_0_NewLevel
+[2021.02.22-13.35.55:272][506]LogWorld: UWorld::CleanupWorld for NewLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.22-13.35.55:273][506]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-13.35.55:283][506]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.22-13.35.55:286][506]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-13.35.55:312][506]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-13.35.55:312][506]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019D38C0A200), frame # 334506
+[2021.02.22-13.35.55:312][506]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019D2F7AF800), frame # 334506
+[2021.02.22-13.35.55:314][506]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2021.02.22-13.35.55:345][508]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2021.02.22-13.35.57:200][719]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/PlayerPawn.PlayerPawn
+[2021.02.22-13.36.36:577][375]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.22-13.36.36:585][375]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.22-13.36.36:585][375]PIE: New page: PIE session: NewLevel (Feb 22, 2021, 5:36:36 PM)
+[2021.02.22-13.36.36:609][375]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewLevel
+[2021.02.22-13.36.36:611][375]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002073s)
+[2021.02.22-13.36.36:612][375]LogAIModule: Creating AISystem for world NewLevel
+[2021.02.22-13.36.36:612][375]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019CDF32CC00), frame # 339375
+[2021.02.22-13.36.36:612][375]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019D3C87BB00), frame # 339375
+[2021.02.22-13.36.36:612][375]LogPlayLevel: PIE: World Init took: (0.000926s)
+[2021.02.22-13.36.36:612][375]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewLevel.NewLevel to /Game/UEDPIE_0_NewLevel.NewLevel (0.003113s)
+[2021.02.22-13.36.36:629][375]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2021.02.22-13.36.36:633][375]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.22-13.36.36:633][375]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.22-13.36.36:633][375]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.22-13.36.36:633][375]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.22-13.36.36:633][375]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.22-13.36.36:633][375]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.22-13.36.36:633][375]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.22-13.36.36:633][375]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.22-13.36.36:633][375]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.22-13.36.36:633][375]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.22-13.36.36:636][375]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.22-13.36.36:636][375]LogAudioMixer: Display: 1: FrontRight
+[2021.02.22-13.36.36:645][375]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2021.02.22-13.36.36:645][375]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.22-13.36.36:645][375]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.22-13.36.36:645][375]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.22-13.36.36:645][375]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.22-13.36.36:655][375]LogInit: FAudioDevice initialized.
+[2021.02.22-13.36.36:665][375]LogLoad: Game class is 'GameModeBase'
+[2021.02.22-13.36.36:666][375]LogWorld: Bringing World /Game/UEDPIE_0_NewLevel.NewLevel up for play (max tick rate 0) at 2021.02.22-15.36.36
+[2021.02.22-13.36.36:666][375]LogWorld: Bringing up level for play took: 0.001138
+[2021.02.22-13.36.36:667][375]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2021.02.22-13.36.36:668][375]PIE: Server logged in
+[2021.02.22-13.36.36:669][375]PIE: Play in editor total start time 0.084 seconds.
+[2021.02.22-13.36.40:000][749]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_Fire', from offset 33
+[2021.02.22-13.36.40:001][749]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BluePrints/PlayerPawn.PlayerPawn_C:InpActEvt_LeftMouseButton_K2Node_InputKeyEvent_1
+	Function /Game/BluePrints/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn
+
+[2021.02.22-13.36.59:987][826]LogSlate: Window 'PlayerPawn' being destroyed
+[2021.02.22-13.36.59:991][826]LogSlate: Window 'PlayerPawn' being destroyed
+[2021.02.22-13.36.59:992][826]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2021.02.22-13.36.59:992][826]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-13.37.00:739][905]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-13.37.00:739][905]LogWorld: BeginTearingDown for /Game/UEDPIE_0_NewLevel
+[2021.02.22-13.37.00:739][905]LogWorld: UWorld::CleanupWorld for NewLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.22-13.37.00:739][905]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-13.37.00:746][905]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.22-13.37.00:749][905]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-13.37.00:778][905]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-13.37.00:780][905]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019D3C87BB00), frame # 339905
+[2021.02.22-13.37.00:780][905]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019CDF32CC00), frame # 339905
+[2021.02.22-13.37.00:782][905]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2021.02.22-13.37.00:814][908]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2021.02.22-13.37.01:376][975]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.22-13.37.01:384][975]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.22-13.37.01:384][975]PIE: New page: PIE session: NewLevel (Feb 22, 2021, 5:37:01 PM)
+[2021.02.22-13.37.01:384][975]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewLevel
+[2021.02.22-13.37.01:386][975]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001693s)
+[2021.02.22-13.37.01:387][975]LogAIModule: Creating AISystem for world NewLevel
+[2021.02.22-13.37.01:387][975]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019D376C0C00), frame # 339975
+[2021.02.22-13.37.01:387][975]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019D3D5460C0), frame # 339975
+[2021.02.22-13.37.01:387][975]LogPlayLevel: PIE: World Init took: (0.000779s)
+[2021.02.22-13.37.01:387][975]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewLevel.NewLevel to /Game/UEDPIE_0_NewLevel.NewLevel (0.002542s)
+[2021.02.22-13.37.01:401][975]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2021.02.22-13.37.01:401][975]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.22-13.37.01:401][975]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.22-13.37.01:401][975]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.22-13.37.01:401][975]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.22-13.37.01:401][975]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.22-13.37.01:401][975]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.22-13.37.01:401][975]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.22-13.37.01:401][975]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.22-13.37.01:402][975]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.22-13.37.01:402][975]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.22-13.37.01:404][975]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.22-13.37.01:404][975]LogAudioMixer: Display: 1: FrontRight
+[2021.02.22-13.37.01:413][975]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2021.02.22-13.37.01:413][975]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.22-13.37.01:413][975]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.22-13.37.01:413][975]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.22-13.37.01:413][975]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.22-13.37.01:422][975]LogInit: FAudioDevice initialized.
+[2021.02.22-13.37.01:429][975]LogLoad: Game class is 'GameModeBase'
+[2021.02.22-13.37.01:430][975]LogWorld: Bringing World /Game/UEDPIE_0_NewLevel.NewLevel up for play (max tick rate 0) at 2021.02.22-15.37.01
+[2021.02.22-13.37.01:431][975]LogWorld: Bringing up level for play took: 0.001024
+[2021.02.22-13.37.01:431][975]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2021.02.22-13.37.01:432][975]PIE: Server logged in
+[2021.02.22-13.37.01:432][975]PIE: Play in editor total start time 0.05 seconds.
+[2021.02.22-13.37.01:709][  8]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_Fire', from offset 33
+[2021.02.22-13.37.01:709][  8]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/BluePrints/PlayerPawn.PlayerPawn_C:InpActEvt_LeftMouseButton_K2Node_InputKeyEvent_1
+	Function /Game/BluePrints/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn
+
+[2021.02.22-13.37.01:709][  8]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/PlayerPawn.PlayerPawn
+[2021.02.22-13.37.05:759][  8]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-13.37.05:759][  8]LogWorld: BeginTearingDown for /Game/UEDPIE_0_NewLevel
+[2021.02.22-13.37.05:759][  8]LogWorld: UWorld::CleanupWorld for NewLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.22-13.37.05:760][  8]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-13.37.05:773][  8]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.22-13.37.05:777][  8]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-13.37.05:796][  8]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-13.37.05:808][  8]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019D3D5460C0), frame # 340008
+[2021.02.22-13.37.05:808][  8]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019D376C0C00), frame # 340008
+[2021.02.22-13.37.05:810][  8]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2021.02.22-13.37.05:835][  9]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2021.02.22-13.37.08:628][337]LogSlate: Window 'PlayerPawn' being destroyed
+[2021.02.22-13.37.08:631][337]LogSlate: Window 'PlayerPawn' being destroyed
+[2021.02.22-13.37.08:632][337]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2021.02.22-13.37.08:632][337]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-13.37.09:643][452]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.22-13.37.09:651][452]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.22-13.37.09:651][452]PIE: New page: PIE session: NewLevel (Feb 22, 2021, 5:37:09 PM)
+[2021.02.22-13.37.09:651][452]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewLevel
+[2021.02.22-13.37.09:653][452]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001743s)
+[2021.02.22-13.37.09:653][452]LogAIModule: Creating AISystem for world NewLevel
+[2021.02.22-13.37.09:654][452]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019D212F5E00), frame # 340452
+[2021.02.22-13.37.09:654][452]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019D4963EFC0), frame # 340452
+[2021.02.22-13.37.09:654][452]LogPlayLevel: PIE: World Init took: (0.000746s)
+[2021.02.22-13.37.09:654][452]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewLevel.NewLevel to /Game/UEDPIE_0_NewLevel.NewLevel (0.002558s)
+[2021.02.22-13.37.09:671][452]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2021.02.22-13.37.09:672][452]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.22-13.37.09:672][452]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.22-13.37.09:672][452]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.22-13.37.09:672][452]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.22-13.37.09:672][452]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.22-13.37.09:672][452]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.22-13.37.09:672][452]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.22-13.37.09:672][452]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.22-13.37.09:672][452]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.22-13.37.09:672][452]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.22-13.37.09:675][452]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.22-13.37.09:675][452]LogAudioMixer: Display: 1: FrontRight
+[2021.02.22-13.37.09:683][452]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2021.02.22-13.37.09:684][452]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.22-13.37.09:684][452]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.22-13.37.09:684][452]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.22-13.37.09:684][452]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.22-13.37.09:684][452]LogInit: FAudioDevice initialized.
+[2021.02.22-13.37.09:695][452]LogLoad: Game class is 'GameModeBase'
+[2021.02.22-13.37.09:697][452]LogWorld: Bringing World /Game/UEDPIE_0_NewLevel.NewLevel up for play (max tick rate 0) at 2021.02.22-15.37.09
+[2021.02.22-13.37.09:697][452]LogWorld: Bringing up level for play took: 0.001031
+[2021.02.22-13.37.09:697][452]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2021.02.22-13.37.09:699][452]PIE: Server logged in
+[2021.02.22-13.37.09:699][452]PIE: Play in editor total start time 0.049 seconds.
+[2021.02.22-13.37.14:589][ 33]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-13.37.14:589][ 33]LogWorld: BeginTearingDown for /Game/UEDPIE_0_NewLevel
+[2021.02.22-13.37.14:589][ 33]LogWorld: UWorld::CleanupWorld for NewLevel, bSessionEnded=true, bCleanupResources=true
+[2021.02.22-13.37.14:590][ 33]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-13.37.14:598][ 33]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.22-13.37.14:601][ 33]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.22-13.37.14:619][ 33]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.22-13.37.14:631][ 33]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019D4963EFC0), frame # 341033
+[2021.02.22-13.37.14:631][ 33]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019D212F5E00), frame # 341033
+[2021.02.22-13.37.14:632][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2021.02.22-13.37.14:663][ 35]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2021.02.22-13.37.48:484][434]LogHotReload: New module detected: UE4Editor-coopgame-0007.dll
+[2021.02.22-13.37.48:832][436]LogHotReload: Starting Hot-Reload from IDE
+[2021.02.22-13.37.48:886][436]LogContentBrowser: Native class hierarchy updated for 'coopgame' in 0.0003 seconds. Added 5 classes and 3 folders.
+[2021.02.22-13.37.48:888][436]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2021.02.22-13.37.48:947][436]LogContentBrowser: Native class hierarchy populated in 0.0066 seconds. Added 3432 classes and 824 folders.
+[2021.02.22-13.37.48:950][436]Display: HotReload took  0.1s.
+[2021.02.22-13.37.50:437][490]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.22-13.37.50:447][490]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.22-13.37.50:447][490]PIE: New page: PIE session: NewLevel (Feb 22, 2021, 5:37:50 PM)
+[2021.02.22-13.37.50:489][490]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewLevel
+[2021.02.22-13.37.50:491][490]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001904s)
+[2021.02.22-13.37.50:491][490]LogAIModule: Creating AISystem for world NewLevel
+[2021.02.22-13.37.50:491][490]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019D37B67200), frame # 341490
+[2021.02.22-13.37.50:491][490]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019D4958CA40), frame # 341490
+[2021.02.22-13.37.50:492][490]LogPlayLevel: PIE: World Init took: (0.000970s)
+[2021.02.22-13.37.50:492][490]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewLevel.NewLevel to /Game/UEDPIE_0_NewLevel.NewLevel (0.002981s)
+[2021.02.22-13.37.50:537][490]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2021.02.22-13.37.50:539][490]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.22-13.37.50:539][490]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.22-13.37.50:539][490]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.22-13.37.50:539][490]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.22-13.37.50:539][490]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.22-13.37.50:539][490]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.22-13.37.50:539][490]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.22-13.37.50:539][490]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.22-13.37.50:539][490]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.22-13.37.50:539][490]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.22-13.37.50:542][490]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.22-13.37.50:542][490]LogAudioMixer: Display: 1: FrontRight
+[2021.02.22-13.37.50:551][490]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2021.02.22-13.37.50:551][490]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.22-13.37.50:551][490]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.22-13.37.50:551][490]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.22-13.37.50:552][490]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.22-13.37.50:561][490]LogInit: FAudioDevice initialized.
+[2021.02.22-13.37.50:564][490]LogLoad: Game class is 'GameModeBase'
+[2021.02.22-13.37.50:566][490]LogWorld: Bringing World /Game/UEDPIE_0_NewLevel.NewLevel up for play (max tick rate 0) at 2021.02.22-15.37.50
+[2021.02.22-13.37.50:567][490]LogWorld: Bringing up level for play took: 0.001062
+[2021.02.22-13.37.50:567][490]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2021.02.22-13.37.50:568][490]PIE: Server logged in
+[2021.02.22-13.37.50:569][490]PIE: Play in editor total start time 0.124 seconds.

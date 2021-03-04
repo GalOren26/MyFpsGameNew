@@ -1,0 +1,40 @@
+C:\Users\Gal\Desktop\Unreal-TomLomman\fpsGame\coopgame\coopgame\MyFpsGameNew\MyFpsGameNew\Intermediate\Build\Win64\UE4Editor\Development\coopgame\Definitions.coopgame.h
+C:\Users\Gal\Desktop\Unreal-TomLomman\fpsGame\coopgame\coopgame\MyFpsGameNew\MyFpsGameNew\Source\coopgame\Public\MySWeapon.h
+C:\Users\Gal\Desktop\Unreal-TomLomman\fpsGame\coopgame\coopgame\MyFpsGameNew\MyFpsGameNew\Source\coopgame\Public\SWeapon.h
+C:\Users\Gal\Desktop\Unreal-TomLomman\fpsGame\coopgame\coopgame\MyFpsGameNew\MyFpsGameNew\Intermediate\Build\Win64\UE4Editor\Inc\coopgame\SWeapon.generated.h
+C:\Users\Gal\Desktop\Unreal-TomLomman\fpsGame\coopgame\coopgame\MyFpsGameNew\MyFpsGameNew\Source\coopgame\Public\FPSProjectile.h
+C:\Users\Gal\Desktop\Unreal-TomLomman\fpsGame\coopgame\coopgame\MyFpsGameNew\MyFpsGameNew\Intermediate\Build\Win64\UE4Editor\Inc\coopgame\FPSProjectile.generated.h
+C:\Users\Gal\Desktop\Unreal-TomLomman\fpsGame\coopgame\coopgame\MyFpsGameNew\MyFpsGameNew\Source\coopgame\Public\SChar.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
+C:\Users\Gal\Desktop\Unreal-TomLomman\fpsGame\coopgame\coopgame\MyFpsGameNew\MyFpsGameNew\Source\coopgame\Public\Components/AimComponent.h
+C:\Users\Gal\Desktop\Unreal-TomLomman\fpsGame\coopgame\coopgame\MyFpsGameNew\MyFpsGameNew\Intermediate\Build\Win64\UE4Editor\Inc\coopgame\AimComponent.generated.h
+C:\Users\Gal\Desktop\Unreal-TomLomman\fpsGame\coopgame\coopgame\MyFpsGameNew\MyFpsGameNew\Intermediate\Build\Win64\UE4Editor\Inc\coopgame\SChar.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+C:\Users\Gal\Desktop\Unreal-TomLomman\fpsGame\coopgame\coopgame\MyFpsGameNew\MyFpsGameNew\Intermediate\Build\Win64\UE4Editor\Inc\coopgame\MySWeapon.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CollisionProfile.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\particles/ParticleSystem.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Particles/ParticlePerfStats.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleSystem.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Particles/ParticleSystemComponent.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Particles/Emitter.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Emitter.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ParticleSystemComponent.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet/KismetMathLibrary.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetMathLibrary.generated.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet\KismetMathLibrary.inl

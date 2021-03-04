@@ -17,7 +17,8 @@ public:
 
 protected:
 	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
+	//virtual void BeginPlay() override;
+
 	UPROPERTY(VisibleAnyWhere, BlueprintReadOnly, Category = "Comoponents")
 		USkeletalMeshComponent* MeshComp;
 	UFUNCTION(BlueprintCallable,Category="weapon")
@@ -29,15 +30,20 @@ protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, category = "Weapon")
 	UParticleSystem *MuzzleEffect;// muzzle flash from the weapon 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, category = "Weapon")
-	UParticleSystem* ImpactEffect;// blood effect 
+	UParticleSystem* DefaultImpactEffect;// fire effect 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, category = "Weapon")
+		UParticleSystem* FleshImpactEffect;// blood effect 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, category = "Weapon")
 		UParticleSystem* SmokeBeamEffect;// create smoke from weapon 
 	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, category = "Weapon")
 		FName SmokeTarget;//name of target of the smoke 
-
+	UPROPERTY(EditAnywhere, Category = "Weapon")
+		TSubclassOf<UCameraShake> FireShake;
+	UPROPERTY(EditAnywhere, Category = "Weapon")
+		float  BaseDamge; 
 
 public:
 	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+	//virtual void Tick(float DeltaTime) override;
 
 };

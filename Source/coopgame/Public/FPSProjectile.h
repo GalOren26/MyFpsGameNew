@@ -24,16 +24,20 @@ protected:
 	/** Projectile movement component */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Movement")
 	UProjectileMovementComponent* ProjectileMovement;
-
-
 	// timer for explision 
-
 	virtual void BeginPlay() override;
+	/*virtual void Tick(float DeltaSeconds);*/
 	FTimerHandle  TimerExplossion;
 	UFUNCTION()
 		void explode();
+
+	//damage 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, category = "Weapon")
 		TSubclassOf<UDamageType> DamageType;
+	// explosion effect 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, category = "Weapon")
+		UParticleSystem* ImpactEffect;
+
 public:
 
 	AFPSProjectile();

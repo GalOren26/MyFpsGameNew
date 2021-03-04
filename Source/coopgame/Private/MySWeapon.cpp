@@ -30,6 +30,7 @@ void AMySWeapon::Fire()
 		FVector CamLocation;// not used. 
 		FRotator CamRotation;
 		MyOwner->GetActorEyesViewPoint(CamLocation, CamRotation);
+
 		/*FVector TraceEnd = CamLocation + CamRotation.Vector() * 10000;
 		FRotator RotOfProjecTile= FindLookAtRotation*/
 		//Set Spawn Collision Handling Override

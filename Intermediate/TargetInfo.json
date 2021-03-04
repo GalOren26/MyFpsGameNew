@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "coopgame",
+			"Path": "C:\\Users\\Gal\\Desktop\\Unreal-TomLomman\\fpsGame\\coopgame\\coopgame\\MyFpsGameNew\\MyFpsGameNew\\Source\\coopgame.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "coopgameEditor",
+			"Path": "C:\\Users\\Gal\\Desktop\\Unreal-TomLomman\\fpsGame\\coopgame\\coopgame\\MyFpsGameNew\\MyFpsGameNew\\Source\\coopgameEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -4,29 +4,49 @@
 #include "GameFramework/ProjectileMovementComponent.h"
 #include "Components/SphereComponent.h"
 #include "Kismet/GameplayStatics.h"
+#include "DrawDebugHelpers.h"
 
 void AFPSProjectile::BeginPlay()
 {
-	GetWorldTimerManager().SetTimer(TimerExplossion, this, &AFPSProjectile::explode, 3.0f, false);
+	Super::BeginPlay();
+	GetWorldTimerManager().SetTimer(TimerExplossion, this, &AFPSProjectile::explode, 0.5f, false);
+
 }
+//void AFPSProjectile::Tick(float DeltaSeconds)
+//{
+//	Super::Tick(DeltaSeconds);
+//	if (IsPendingKill())
+//	{
+//		UE_LOG(LogTemp,Warning,TEXT("Pending"))
+//	}
+//	else
+//	{
+//		UE_LOG(LogTemp,Warning,TEXT("Not Pending"))
+//	}
+//}
 //#include "Containers/Array.h"
 void AFPSProjectile::explode()
 {
-	AActor* MyOwner = GetOwner();
-	if (MyOwner)
-	{
 		float DamgeVal = 20.0f;
-		float raious = 5.0f;
-		TArray  <AActor*> MyIgnoers = { this,MyOwner };
-		UGameplayStatics::ApplyRadialDamage(GetWorld(), DamgeVal, this->GetActorLocation(), raious, DamageType, MyIgnoers, this, MyOwner->GetInstigatorController());
-		UE_LOG(LogTemp, Warning, TEXT("Im Here1 "));
-		this->Destroy();
-	}
+		float raious = 300.0f;
+		TArray  <AActor*> MyIgnoers = { this };
+		// do explosion effect
+		UParticleSystemComponent* explode  = UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ImpactEffect, this->GetActorLocation());
+		//apply radial damage 
+		UGameplayStatics::ApplyRadialDamage(GetWorld(), DamgeVal, this->GetActorLocation(), raious, DamageType, MyIgnoers);
+		//  draw debug spher
+		DrawDebugSphere(GetWorld(), this->GetActorLocation(), raious, 20, FColor::Yellow, false,2,4);
+		
+		//UE_LOG(LogTemp, Warning, TEXT("Im Here1  "));
+
+		Destroy();
+		
 }
 
 AFPSProjectile::AFPSProjectile()
 {
 	// Use a sphere as a simple collision representation
+	//PrimaryActorTick.bCanEverTick = true;
 
 	CollisionComp = CreateDefaultSubobject<USphereComponent>(TEXT("SphereComp"));
 
